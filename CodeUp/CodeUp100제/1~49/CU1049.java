@@ -2,7 +2,7 @@
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class CU1049 {
 
 	public static void main(String[] args) throws IOException {
 		// 1049 : [기초-비교연산] 두 정수 입력받아 비교하기1
