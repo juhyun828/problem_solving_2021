@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA007 {
+public class SWEA2007 {
 	// 210129
 	// 2007. 패턴 마디의 길이
 	
