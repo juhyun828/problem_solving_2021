@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
-public class Solution {
+public class SWEA1954 {
 	// 210130
 	// 1954. 달팽이 숫자
 
-	public static void SWEA1954 (String[] args) {
+	public static void main (String[] args) {
 		Scanner sc = new Scanner(System.in);
 
 		int T = sc.nextInt();
