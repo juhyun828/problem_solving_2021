@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-// 210208
+//210208
 
 public class Solution_D4_1494_사랑의카운슬러 {
 
@@ -35,6 +35,7 @@ public class Solution_D4_1494_사랑의카운슬러 {
 		}
 		
 		for(int i=start; i<N; i++) {
+		// 조합은 i가 start부터 시작하는거 까먹지좀 말자 
 			 if (isSelected[i]) continue;
 			 isSelected[i] = true;
 			 combination(cnt+1, i+1);
