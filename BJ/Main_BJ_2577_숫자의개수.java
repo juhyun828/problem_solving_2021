@@ -3,7 +3,7 @@ import java.util.*;
 
 // 210209
 
-public class Main_2577_숫자의개수 {
+public class Main_BJ_2577_숫자의개수 {
 
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

@@ -3,7 +3,7 @@ import java.util.*;
 
 // 210208
 
-public class Main_2164_카드2 {
+public class Main_BJ_2164_카드2 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
