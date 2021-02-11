@@ -33,7 +33,7 @@ public class Main_BJ_2231_분해합 {
 			else ++input;
 		}
 		
-		// 분해합이 없는 경우 0d을 출력한다.
+		// 분해합이 없는 경우 0을 출력한다.
 		System.out.println((input==N) ? 0 : input);
 		
 		br.close();

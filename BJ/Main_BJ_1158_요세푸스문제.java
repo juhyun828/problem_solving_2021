@@ -6,7 +6,6 @@ import java.util.*;
 public class Main_BJ_1158_요세푸스문제 {
 
 	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("res/input_1158_요세푸스문제.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
 		StringTokenizer str = new StringTokenizer(br.readLine(), " ");
