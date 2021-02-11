@@ -47,7 +47,6 @@ public class Main_BJ_16926_배열돌리기1 {
 	}
  	
 	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("res/input_BJ_16926_배열돌리기1.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
