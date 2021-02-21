@@ -3,7 +3,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Solution_BJ_1983_조교의성적매기기 {
+public class Solution_D2_1983_조교의성적매기기 {
 
 	public static void main(String[] args)  {
 		Scanner sc = new Scanner(System.in);
