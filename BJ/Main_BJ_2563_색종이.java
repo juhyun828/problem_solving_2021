@@ -1,34 +1,29 @@
 import java.io.*;
 import java.util.*;
 
-// 210209 
+// 210222
 
 public class Main_BJ_2563_색종이 {
 
-	public static void main(String[] args) throws Exception {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
+		int cnt = 0;
+		boolean[][] visited = new boolean[101][101];
 		
-		int N = Integer.parseInt(br.readLine());
-		int[][] arr = new int[101][101];
-		int area = 0;
-		
-		for (int i=0; i<N; i++) {
-			st = new StringTokenizer(br.readLine(), " ");
-			int x = Integer.parseInt(st.nextToken()); // X 좌표
-			int y = Integer.parseInt(st.nextToken()); // Y 좌표
-			
-			for (int j = 0; j < 10; j++) {
-				for (int k = 0; k <10; k++) {
-					if (arr[x+j][y+k] == 1) continue;
-					arr[x+j][y+k] = 1;
-					++area;
+		for(int i=0; i<N; i++) {
+			int x = sc.nextInt(); int y = sc.nextInt();
+			for(int xi=0; xi<10; xi++) {
+				for(int yi=0; yi<10; yi++) {
+					if (visited[x+xi][y+yi]) continue;
+					++cnt;
+					visited[x+xi][y+yi] = true;
 				}
 			}
 		}
-
-		System.out.println(area);
-		br.close();
-	} // main
+		
+		System.out.println(cnt);
+		sc.close();
+	}
 
 }
