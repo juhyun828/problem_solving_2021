@@ -116,13 +116,6 @@ public class Main_BJ_17135_캐슬디펜스 {
 		
 	}
 	
-	static void setAlive() {
-		for(int i=0; i<enemyCnt; i++) {
-			enemys.get(i).nr = enemys.get(i).r;
-			enemys.get(i).alive = 1;
-		}
-	}
-	
 	static void down() {
 		for(int i=0; i<enemys.size(); i++) {
 			if(enemys.get(i).alive==1) {
@@ -132,6 +125,13 @@ public class Main_BJ_17135_캐슬디펜스 {
 					++deathCnt;
 				}
 			}
+		}
+	}
+	
+	static void setAlive() {
+		for(int i=0; i<enemyCnt; i++) {
+			enemys.get(i).nr = enemys.get(i).r;
+			enemys.get(i).alive = 1;
 		}
 	}
 	
