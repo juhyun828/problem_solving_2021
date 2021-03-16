@@ -1,76 +1,98 @@
 import java.io.*;
 import java.util.*;
-
 // 210214
 
 public class Main_BJ_2206_벽부수고이동하기 {
 	static int N, M;
 	static int[][] map;
-	static int[][][] dist;
-	static Queue<Integer[]> q;
+	static int[][][] visited;
+	static Queue<Pos> q;
 	static int[] dr = {-1, 0, 1, 0};
 	static int[] dc = {0, -1, 0, 1};
 	
+	static int stoi(String str) {
+		return Integer.parseInt(str);
+	}
+	
+	static class Pos {
+		int r, c, flag; // flag 0 -> 벽 안부숨, 1 -> 벽 부숨
+
+		public Pos(int r, int c, int flag) {
+			this.r = r;
+			this.c = c;
+			this.flag = flag;
+		}
+	}
+	
 	static void bfs() {
-		q.offer(new Integer[] {1, 1, 0, 1});
-		dist[1][1][0] = 1;
+		q.offer(new Pos(1, 1, 0)); // 시작점
+		visited[1][1][0] = 1; // 시작점 거리 1
 		
 		while(!q.isEmpty()) {
-			Integer[] v = q.poll();
-			int r = v[0], c = v[1], b = v[2]; // v[3]은 거리
+			Pos p = q.poll();
+			
 			for(int d=0; d<4; d++) {
-
-				int nr = r + dr[d];
-				int nc = c + dc[d];
-				if(nr>=1 && nr<=N && nc>=1 && nc<=M) {
-					
-					// 벽x 이동
-					if(map[nr][nc]==0) {
-						if(dist[nr][nc][b]==0) {
-							q.offer(new Integer[] {nr, nc, b, v[3]+1});
-							dist[nr][nc][b] = v[3]+1;
-						}
-					} else {
-						if(b==0 && dist[nr][nc][1]==0) {
-							// 벽o => 아직 벽 부순 적 없으면 이동
-							q.offer(new Integer[] {nr, nc, 1, v[3]+1});
-							dist[nr][nc][1] = v[3]+1;
-						}
+				int nr = p.r + dr[d];
+				int nc = p.c + dc[d];
+				
+				if(nr<1 || nr>N || nc<1 || nc>M || visited[nr][nc][p.flag]>0) continue;
+				
+				// 벽x -> 방문
+				if(map[nr][nc]==0 ) {
+					visited[nr][nc][p.flag] = visited[p.r][p.c][p.flag] + 1;
+					q.offer(new Pos(nr, nc, p.flag));
+				}
+				else { // 벽인데
+					// 아직 벽을 부순 적으면 벽 부수고 이동
+					if(p.flag==0) {
+						visited[nr][nc][1] = visited[p.r][p.c][p.flag] + 1;
+						q.offer(new Pos(nr, nc, 1));
 					}
 				}
+
 			}
+
+		}
+
+	}
+	
+	static void check() {
+		if(visited[N][M][0]==0 && visited[N][M][1]==0) {
+			// 둘 다 방문 x
+			System.out.println(-1);
+		} else if(visited[N][M][0]==0) {
+			System.out.println(visited[N][M][1]);
+		} else if (visited[N][M][1]==0) {
+			System.out.println(visited[N][M][0]);
+		} else {
+			System.out.println(Math.min(visited[N][M][0], visited[N][M][1]));
 		}
 	}
 	
 	public static void main(String[] args) throws Exception {
+//		System.setIn(new FileInputStream("res/input_BJ_2206_벽부수고이동하기.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+		StringTokenizer st = new StringTokenizer(br.readLine().trim(), " ");
+		 
+		N = stoi(st.nextToken());
+		M = stoi(st.nextToken());
 		
-		N = Integer.parseInt(st.nextToken());
-		M = Integer.parseInt(st.nextToken());
 		map = new int[N+1][M+1];
-		dist = new int[N+1][M+1][2];
-		q = new ArrayDeque<Integer[]>();
-
-		for(int r=1; r<=N; r++) {
-			String[] str = br.readLine().split("");
-			for(int c=1; c<=M; c++) {
-				map[r][c] = Integer.parseInt(str[c-1]);
+		visited = new int[N+1][M+1][2]; // 세번째 1 - 벽 부셨을 때, 0 - 안부셨을 때
+		q = new ArrayDeque<>();
+		
+		String[] str;
+		for(int i=1; i<=N; i++) {
+			str = br.readLine().trim().split("");
+			for(int j=1; j<=M; j++) {
+				map[i][j] = stoi(str[j-1]);
 			}
 		}
-	
+		
 		bfs();
 		
-		if(dist[N][M][0]==0 && dist[N][M][1]==0) {
-			System.out.println(-1);
-		} else if(dist[N][M][0]==0 && dist[N][M][1]!=0) {
-			System.out.println(dist[N][M][1]);
-		} else if(dist[N][M][0]!=0 && dist[N][M][1]==0) {
-			System.out.println(dist[N][M][0]);
-		} else {
-			System.out.println(Math.min(dist[N][M][0], dist[N][M][1]));
-		}
+		check();
 		
 		br.close();
-	} // 
+	}
 }
