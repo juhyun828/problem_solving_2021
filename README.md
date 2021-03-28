@@ -33,6 +33,7 @@
 | [1149](https://www.acmicpc.net/problem/1149)   | [1149](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1149_RGB%EA%B1%B0%EB%A6%AC.java) | RGB 거리           | `DP`                  | 21/03/23                  | [.](https://jhk0307.tistory.com/348)                         |           |
 | [2636](https://www.acmicpc.net/problem/2636)   | [2636](https://github.com/jhk828/Algorithm/blob/fd021f783c3152d12b737dced1ed43f9e72314bb/BJ/Main_BJ_2636_%EC%B9%98%EC%A6%88.java) | 치즈               | `BFS` `시뮬레이션`    | 21/03/24                  | [내부/외부 구분 / `DFS`로 풀어보기](https://jhk0307.tistory.com/350) | ☑         |
 | [1600](https://www.acmicpc.net/problem/1600)   | [1600](https://github.com/jhk828/Algorithm/blob/fd021f783c3152d12b737dced1ed43f9e72314bb/BJ/Main_BJ_1600_%EB%A7%90%EC%9D%B4%EB%90%98%EA%B3%A0%ED%94%88%EC%9B%90%EC%88%AD%EC%9D%B4.java) | 말이되고픈원숭이   | `BFS` 시뮬레이션      | 21/03/24                  | [3차원 visited 배열](https://jhk0307.tistory.com/351)        |           |
+| [11650](https://www.acmicpc.net/problem/11650) | 11650                                                        | 좌표정렬하기       | `Sort`                | 21/03/28                  | [`Comparable` vs `Comparator `](https://jhk0307.tistory.com/323) |           |
 
 
 
