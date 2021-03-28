@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 // 210126
 // 1641 : 숫자삼각형
-// 18MB, 386ms, Success
 
-public class J1641 {
+public class Main_JO_1641_숫자삼각형 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 // 210127
 // 1146 : 선택정렬
-// 19MB, 552ms
 
-public class J1146 {
+public class Main_JO_1146_선택정렬 {
 	
 	public static void printList(int[] arr) {
 		for(int i=0; i<arr.length; i++) {

@@ -3,7 +3,7 @@ import java.util.Scanner;
 // 210130
 // 2005. 파스칼의 삼각형
 
-public class SWEA2005 {
+public class Solution_D2_2005_파스칼의삼각형 {
 
 	public static void main(String[] args) throws Exception {
 		Scanner sc = new Scanner(System.in);

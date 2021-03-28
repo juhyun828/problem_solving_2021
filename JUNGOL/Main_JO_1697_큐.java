@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 // 210126
 // 1697 : 큐(queue)
-// 16MB, 347ms, Success
 
-public class J1697 {
+public class Main_JO_1697_큐 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

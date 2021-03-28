@@ -3,7 +3,7 @@ import java.util.Scanner;
 // 210130
 // 1989. 초심자의 회문 검사
 
-public class SWEA1989 {
+public class Solution_D2_1989_초심자의회문검사 {
 	
 	public static boolean isPalindrome(char[] chArr) {
 		int l = chArr.length;

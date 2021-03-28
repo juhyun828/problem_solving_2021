@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // 210130
 // 2001. 파리 퇴치
-public class SWEA2001 {
+public class Solution_D2_2001_파리퇴치 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA1926 {
+public class Solution_D2_1926_간단한369게임 {
 	// 210129
 	// 1926. 간단한 369게임
 

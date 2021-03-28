@@ -3,7 +3,7 @@ import java.util.Scanner;
 // 210128
 // 1204. [S/W 문제해결 기본] 1일차 - 최빈수 구하기
 
-public class SWEA1204 {
+public class Solution_D2_1204_최빈수구하기 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); 

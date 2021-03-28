@@ -2,9 +2,8 @@ import java.util.Scanner;
 
 // 210126
 // 1101 : 스택 (stack)
-// 16MB, 335ms, Success
 
-public class J1101 {
+public class Main_JO_1101_스택 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

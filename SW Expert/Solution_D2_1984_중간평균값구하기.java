@@ -2,7 +2,7 @@ import java.util.Scanner;
 // 210131
 // 1984. 중간 평균값 구하기
 
-public class SWEA1984 {
+public class Solution_D2_1984_중간평균값구하기 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

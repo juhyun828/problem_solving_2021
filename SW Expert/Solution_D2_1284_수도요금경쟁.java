@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 // 210130
 // 1284. 수도 요금 경쟁
-public class SWEA1284 {
+public class Solution_D2_1284_수도요금경쟁 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

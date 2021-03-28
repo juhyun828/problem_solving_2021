@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA1974 {
+public class Solution_D2_1974_스도쿠검증 {
 	// 210121
 	// 1974. 스도쿠 검증
 	public static void main(String[] args) {

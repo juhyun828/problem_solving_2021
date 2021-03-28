@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SWEA1954 {
+public class Solution_D2_1954_달팽이숫자 {
 	// 210130
 	// 1954. 달팽이 숫자
 

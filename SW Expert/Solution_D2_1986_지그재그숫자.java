@@ -3,7 +3,7 @@ import java.util.Scanner;
 // 210131
 // 1986. 지그재그 숫자
 
-public class SWEA1986 {
+public class Solution_D2_1986_지그재그숫자 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
