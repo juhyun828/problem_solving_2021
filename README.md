@@ -42,7 +42,10 @@
 | [2108](https://www.acmicpc.net/problem/2108)   | [2108](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2108_%ED%86%B5%EA%B3%84%ED%95%99.java) | 통계학             | `Sort`                   | 21/03/28                  | 음수 범위의 수-> 양수화 하기                                 |           |
 | [1427](https://www.acmicpc.net/problem/1427)   | [1427](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1427_%EC%86%8C%ED%8A%B8%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C.java) | 소트 인사이드      | `Sort`                   | 21/03/28                  | `Collections.reverseOrder()`                                 |           |
 | [1026](https://www.acmicpc.net/problem/1026)   | [1026](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1026_%EB%B3%B4%EB%AC%BC.java) | 보물               | `Sort`                   | 21/03/28                  |                                                              |           |
-| [10825](https://www.acmicpc.net/problem/10825) | [10825](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_10825_%EA%B5%AD%EC%98%81%EC%88%98.java) | 국영수             | `Sort`                   | 21/03/29                  | `String` - `compareTo()`                                     |           |
+| [10825](https://www.acmicpc.net/problem/10825) | [10825](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_10825_%EA%B5%AD%EC%98%81%EC%88%98.java) | 국영수             | `Sort`                   | 21/03/28                  | `String` - `compareTo()`                                     |           |
+| [17472](https://www.acmicpc.net/problem/17472) | 17472                                                        | 다리만들기2        | `DFS` `BFS` `Prim`       | 21/03/29                  | Prim - 최소신장트리                                          | ☑         |
+| [1755](https://www.acmicpc.net/problem/1755)   | 1755                                                         | 숫자놀이           | `Sort`                   | 21/03/29                  |                                                              |           |
+| [2629](https://www.acmicpc.net/problem/2629)   | 2629                                                         | 양팔저울           | `DP`                     | 21/03/29                  | **미해결**                                                   | ☑         |
 
 
 

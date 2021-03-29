@@ -32,7 +32,7 @@ public class Main_BJ_2108_통계학 {
 			if(modeCnt < count[arr[i]+4000]) modeCnt = count[arr[i]+4000]; // 3. 최빈값
 		}
 		
-		// 1. 산술 평균 - 소수점 이하 첫째 자리에서 반올림, sum을 float형으로
+		// 1. 산술 평균 - 소수점 이하 첫째 자리에서 반올림, sum을 double형으로
 		System.out.println(Math.round(sum / N));
 	
 		// 2. 중앙값
