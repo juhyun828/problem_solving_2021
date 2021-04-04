@@ -47,6 +47,8 @@
 | [1755](https://www.acmicpc.net/problem/1755)   | [1755](https://github.com/jhk828/Algorithm/blob/90b63e7355963b462f507da19ba4590461f567cc/BJ/Main_BJ_1755_%EC%88%AB%EC%9E%90%EB%86%80%EC%9D%B4.java) | 숫자놀이           | `Sort`                   | 21/03/29                  |                                                              |           |
 | [2629](https://www.acmicpc.net/problem/2629)   | [2629](https://github.com/jhk828/Algorithm/blob/90b63e7355963b462f507da19ba4590461f567cc/BJ/Main_BJ_2629_%EC%96%91%ED%8C%94%EC%A0%80%EC%9A%B8_fail.java) | 양팔저울           | `DP`                     | 21/03/29                  | **미해결**                                                   | ☑         |
 | [16973](https://www.acmicpc.net/problem/16973) | [16973](https://github.com/jhk828/Algorithm/blob/063404b757006639199e8b74ba660a16cd6cb1ac/BJ/Main_BJ_16973_%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%ED%83%88%EC%B6%9C.java) | 직사각형 탈출      | `BFS`                    | 21/03/31                  | [직사각형 모든 넓이 체크-> 시간초과](https://jhk0307.tistory.com/354) |           |
+| [12907](https://www.acmicpc.net/problem/12907) | [12907](https://github.com/jhk828/Algorithm/blob/5c349daf755aae37e5b1aa4ed2107991bca3f1c2/BJ/Main_BJ_12907_%EB%8F%99%EB%AC%BC%EC%9B%90.java) | 동물원             |                          | 21/04/01                  |                                                              | ☑         |
+| [1261](https://www.acmicpc.net/problem/1261)   | [1261-1](https://github.com/jhk828/Algorithm/blob/f8968d36aa33aec9239fb2312fb2f9f9b4914e1c/BJ/Main_BJ_1261_%EC%95%8C%EA%B3%A0%EC%8A%A4%ED%8C%9F_pq.java)<br />1261-2 | 알고스팟           | `BFS` `PQ` `Dijkstra`    | 21/04/03                  | BFS+우선순위큐 / BFS+Dijkstra                                |           |
 
 
 
