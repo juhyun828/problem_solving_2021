@@ -81,6 +81,16 @@
 
 
 
+## Programmers
+
+| 문제번호                                                     | 풀이           | 문제명     | 분류          | 날짜     | memo | 복습 필요K |
+| ------------------------------------------------------------ | -------------- | ---------- | ------------- | -------- | ---- | ---------- |
+| [LV2 타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | LV2 타겟넘버   | 타겟넘버   | `DFS`         | 21/04/06 |      |            |
+| [LV3 가장먼노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | LV3 가장먼노드 | 가장먼노드 | `Graph` `BFS` | 21/04/06 |      |            |
+| [LV3 네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | LV3 네트워크   | 네트워크   | `DFS`         | 21/04/06 |      |            |
+
+
+
 ## Code Up
 
 | 문제번호                                                  | 풀이                                                         | 문제명 | 분류          | 날짜                | memo             | 복습 필요 |
@@ -95,4 +105,6 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------- | ------------- | -------- | ------------------------------ | --------- |
 | [1863](http://www.jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=1136&sca=99&sfl=wr_hit&stx=1863) | [1863](https://github.com/jhk828/Algorithm/blob/master/JUNGOL/Main_JO_1863_%EC%A2%85%EA%B5%90.java) | 종교           | `서로소집합`  | 21/03/18 | Union-Find연산, 집합 개수 세기 | ☑         |
 | [1681](http://jungol.co.kr/bbs/board.php?bo_table=pbank&wr_id=954&sca=99&sfl=wr_hit&stx=1681) | [1681](https://github.com/jhk828/Algorithm/blob/311758f10e5837695e996bea264ae9aa984e5cff/JUNGOL/Main_JO_1681_%ED%95%B4%EB%B0%80%ED%84%B4%EC%88%9C%ED%99%98%ED%9A%8C%EB%A1%9C.java) | 해밀턴순환회로 | `Graph` `DFS` | 21/03/22 | 1로 돌아올 때 길 있는지 체크   | ☑         |
+
+
 
