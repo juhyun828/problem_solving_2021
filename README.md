@@ -83,11 +83,11 @@
 
 ## Programmers
 
-| 문제번호                                                     | 풀이           | 문제명     | 분류          | 날짜     | memo | 복습 필요K |
-| ------------------------------------------------------------ | -------------- | ---------- | ------------- | -------- | ---- | ---------- |
-| [LV2 타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | LV2 타겟넘버   | 타겟넘버   | `DFS`         | 21/04/06 |      |            |
-| [LV3 가장먼노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | LV3 가장먼노드 | 가장먼노드 | `Graph` `BFS` | 21/04/06 |      |            |
-| [LV3 네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | LV3 네트워크   | 네트워크   | `DFS`         | 21/04/06 |      |            |
+| 문제번호                                                     | 풀이                                                         | 문제명     | 분류          | 날짜     | memo | 복습 필요K |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------- | ------------- | -------- | ---- | ---------- |
+| [LV2 타겟넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | [LV2 타겟넘버](https://github.com/jhk828/Algorithm/blob/11dd67a4ebda2deed678ea583e23caafdd5e9b9f/Programmers/Programmers_LV2_%ED%83%80%EA%B2%9F%EB%84%98%EB%B2%84.java) | 타겟넘버   | `DFS`         | 21/04/06 |      |            |
+| [LV3 가장먼노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [LV3 가장먼노드](https://github.com/jhk828/Algorithm/blob/11dd67a4ebda2deed678ea583e23caafdd5e9b9f/Programmers/Programmers_LV3_%EA%B0%80%EC%9E%A5%EB%A8%BC%EB%85%B8%EB%93%9C.java) | 가장먼노드 | `Graph` `BFS` | 21/04/06 |      |            |
+| [LV3 네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [LV3 네트워크](https://github.com/jhk828/Algorithm/blob/11dd67a4ebda2deed678ea583e23caafdd5e9b9f/Programmers/Programmers_LV3_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.java) | 네트워크   | `DFS`         | 21/04/06 |      |            |
 
 
 
