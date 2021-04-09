@@ -89,8 +89,8 @@
 | [LV3 가장먼노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [LV3 가장먼노드](https://github.com/jhk828/Algorithm/blob/11dd67a4ebda2deed678ea583e23caafdd5e9b9f/Programmers/Programmers_LV3_%EA%B0%80%EC%9E%A5%EB%A8%BC%EB%85%B8%EB%93%9C.java) | 가장먼노드 | `Graph` `BFS` | 21/04/06 |      |           |
 | [LV3 네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [LV3 네트워크](https://github.com/jhk828/Algorithm/blob/11dd67a4ebda2deed678ea583e23caafdd5e9b9f/Programmers/Programmers_LV3_%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC.java) | 네트워크   | `DFS`         | 21/04/06 |      |           |
 | [LV3 단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [LV3 단어 변환](https://github.com/jhk828/Algorithm/blob/2489e590ee560068e16c1f183dba61ae5bf92ced/Programmers/Programmers_LV3_%EB%8B%A8%EC%96%B4%EB%B3%80%ED%99%98.java) | 단어 변환  | `DFS`         | 21/04/07 |      |           |
-| [LV3 여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | [LV3_여향경로](https://github.com/jhk828/Algorithm/blob/ca47e4d12d87709d65a3db389f38e35453135aba/Programmers/Programmers_LV3_%EC%97%AC%ED%96%89%EA%B2%BD%EB%A1%9C.java) | 여향경로   | `DFS` `Stack` | 21/04/08 |      |           |
-| [LV3 입국심사](https://programmers.co.kr/learn/courses/30/parts/12486) | LV3 입국심사                                                 | 입국심사   | `이분탐색`    | 21/04/09 |      |           |
+| [LV3 여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | [LV3_여행경로](https://github.com/jhk828/Algorithm/blob/ca47e4d12d87709d65a3db389f38e35453135aba/Programmers/Programmers_LV3_%EC%97%AC%ED%96%89%EA%B2%BD%EB%A1%9C.java) | 여향경로   | `DFS` `Stack` | 21/04/08 |      |           |
+| [LV3 입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) | [LV3 입국심사](https://github.com/jhk828/Algorithm/blob/bb13b9bd53e6cf2c51da9a774b7e65631bde922f/Programmers/Programmers_LV3_%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC.java) | 입국심사   | `이분탐색`    | 21/04/09 |      |           |
 
 
 
