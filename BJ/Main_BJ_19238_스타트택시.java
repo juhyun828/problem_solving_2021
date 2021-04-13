@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 // 210413
 
-public class Main_BJ_19238_스타트택시_fail {
+public class Main_BJ_19238_스타트택시 {
 	static int N, M, V;
 	static int tr, tc, v; // 택시의 위치 정보
 	static PriorityQueue<Customer> pq;
@@ -13,16 +13,15 @@ public class Main_BJ_19238_스타트택시_fail {
 	static class Customer implements Comparable<Customer> {
 		int idx;
 		int sr, sc, er, ec;
-		int taxiDist, targetDist;
+		int taxiDist;
 		
-		public Customer(int idx, int sr, int sc, int er, int ec, int taxiDist, int targetDist) {
+		public Customer(int idx, int sr, int sc, int er, int ec, int taxiDist) {
 			this.idx = idx;
 			this.sr = sr;
 			this.sc = sc;
 			this.er = er;
 			this.ec = ec;
 			this.taxiDist = taxiDist;
-			this.targetDist = targetDist;
 		}
 
 		@Override
@@ -37,7 +36,7 @@ public class Main_BJ_19238_스타트택시_fail {
 		
 	}
 	
-	static class Pos implements Comparable<Pos>{
+	static class Pos {
 		int r, c, dist;
 
 		public Pos(int r, int c, int dist) {
@@ -46,21 +45,15 @@ public class Main_BJ_19238_스타트택시_fail {
 			this.dist = dist;
 		}
 		
-		@Override
-		public int compareTo(Pos o) {
-			if(this.dist==o.dist) {
-				if(this.r==o.r) 
-					return Integer.compare(this.c, o.c);
-				return Integer.compare(this.r, o.r);
-			}
-			return Integer.compare(this.dist, o.dist);
-		}
 	}
 	
 	static int getDist(int sr, int sc, int er, int ec) {
 		
 		boolean[][] v = new boolean[N+1][N+1];
-		PriorityQueue<Pos> q = new PriorityQueue<Pos>();
+		Queue<Pos> q = new ArrayDeque<Pos>();
+		// BFS에서 우선순위 큐 남발하지 않기^^
+		// 가중치가 동일한 그래프라면 최초로 도착지에 도착한 경우가 최단거리다.
+		// 굳이 우선순위큐로 거리값을 관리할 필요 없음
 		
 		// 시작점
 		v[sr][sc] = true;
@@ -81,22 +74,15 @@ public class Main_BJ_19238_스타트택시_fail {
 				q.offer(new Pos(nr, nc, cur.dist+1));
 			}
 		}
-		// 택시가 갈 수 없는 경우
+		// 택시가 갈 수 없는 경우 -> 우선순위 큐에서 제일 마지막 순위가 되도록 최대값을 반환
 		return Integer.MAX_VALUE;
 	}
 	
-	static int solve() {
-		
-		for(int i=0; i<M; i++) {
-			if(!move()) return -1;		
-			chageTaxiDistance(); // 움직인 택시와의 거리 새로 구한다.
-		}
-		
-		return v;
-	}
-	
 	static void chageTaxiDistance() {
+		// 1. 현재 택시 위치와의 거리 새로 구한다.
 		
+		// 새롭게 PQ에 값을 갱신하며 넣어야
+		// 바뀐 택시 거리에 대한 거리값을 기준으로 우선순위큐 순서가 정해진다.
 		PriorityQueue<Customer> tmpPq = new PriorityQueue<Customer>();
 		
 		Customer cur;
@@ -111,23 +97,38 @@ public class Main_BJ_19238_스타트택시_fail {
 	
 	static boolean move( ) {
 		
+		// 2. 가장 가까이 있는 손님부터 시도
 		Customer cur = pq.poll();
 		if(cur.taxiDist==Integer.MAX_VALUE) return false;
 
-		// 1. taxi->손님 시작지
+		// 1). taxi->손님 시작지
 		v -= cur.taxiDist;
 		if(v<0) return false;
 		
-		// 2. 손님 시작지 -> 손님 도착지
-		v -= cur.targetDist;
+		// 2). 손님 시작지 -> 손님 도착지
+		int targetDist = getDist(cur.sr, cur.sc, cur.er, cur.ec);
+		if(targetDist==Integer.MAX_VALUE) return false;
+		
+		v -= targetDist;
 		if(v<0) return false;
 		
-		// 3. 연료 두배
-		v += cur.targetDist*2;
+		// 3). 연료 두배
+		v += targetDist*2;
 		tr = cur.er;
 		tc = cur.ec;
 		
 		return true;
+	}
+	
+	static int solve() {
+		for(int i=0; i<M; i++) {
+			// 1. 현재 택시 위치와의 거리 새로 구한다.
+			chageTaxiDistance(); 
+			// 2. 가장 가까이 있는 손님부터 시도
+			if(!move()) return -1;		
+		}
+		
+		return v;
 	}
 	
 	public static void main(String[] args) throws Exception {
@@ -158,7 +159,7 @@ public class Main_BJ_19238_스타트택시_fail {
 		pq = new PriorityQueue<Customer>();
 		
 		Customer c = null;
-		int r1, c1, r2, c2, taxiDist, targetDist;
+		int r1, c1, r2, c2, taxiDist;
 		for(int i=1; i<=M; i++) {
 			st = new StringTokenizer(br.readLine(), " ");
 			
@@ -166,13 +167,10 @@ public class Main_BJ_19238_스타트택시_fail {
 			c1 = stoi(st.nextToken());
 			r2 = stoi(st.nextToken());
 			c2 = stoi(st.nextToken());
-			taxiDist = getDist(r1, c1, tr, tc);
-			targetDist = getDist(r1, c1, r2, c2);
-			pq.offer(new Customer(i, r1, c1, r2, c2, taxiDist, targetDist));
+			pq.offer(new Customer(i, r1, c1, r2, c2, 0));
 		}
 		
 		System.out.println(solve());
-
 		
 		br.close();
 	}
