@@ -29,7 +29,7 @@ public class Main_BJ_17143_낚시왕 {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		System.setIn(new FileInputStream("res/input_BJ_17143_낚시왕.txt"));
+		//System.setIn(new FileInputStream("res/input_BJ_17143_낚시왕.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 		
