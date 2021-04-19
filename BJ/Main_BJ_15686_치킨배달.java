@@ -1,55 +1,20 @@
 import java.io.*;
 import java.util.*;
-// 210217
+// 210419
 
 public class Main_BJ_15686_치킨배달 {
-	static int N, M;
-	static int[][] map;
-	static int[] close;
-	static ArrayList<Integer[]> chicken, house;
-	static int disMin = Integer.MAX_VALUE;
+	static int N, M, minDist; // 치킨집 M개 남기고 폐업
+	static int[][] map; // 0: 빈칸, 1: 집, 2: 치킨집
+	static boolean[] close; // 폐점시킬 치킨집
+	static ArrayList<Pos> chicken, house;
 	
-	static int stoi(String str) {
-		return Integer.parseInt(str);
-	}
-	
-	static int distance() {
-		int dist = 0;
-		for(int i=0; i<house.size(); i++) {
-			int r = house.get(i)[0];
-			int c = house.get(i)[1];
-			int min = Integer.MAX_VALUE;
-			for(int j=0; j<chicken.size(); j++) {
-				if(chicken.get(j)[2] == 1) { // 폐업x
-					int nr = chicken.get(j)[0];
-					int nc = chicken.get(j)[1];
-					int tmp = Math.abs(nr-r) + Math.abs(nc-c);
-					min = Math.min(min, tmp);
-				}
-			}
-			dist += min;
-		} 
-		return dist;
-	}
-	
-	static void close(int cnt, int L, int start) {
-		// chicken.size()에서 폐업 시킬 전체-M개 고르기
-		if(cnt == chicken.size()-M) {
-			for(int i=0; i<close.length; i++) {
-				chicken.get(close[i])[2] = 0; //폐업
-			}
-			disMin = Math.min(disMin, distance());
-			for(int i=0; i<close.length; i++) {
-				chicken.get(close[i])[2] = 1; // 원상복귀
-			}
-			return;
+	static class Pos {
+		int r, c;
+
+		public Pos(int r, int c) {
+			this.r = r;
+			this.c = c;
 		}
-		
-		if (L == chicken.size()) return;
-		
-		close[cnt] = start;
-		close(cnt+1, L+1, start+1);
-		close(cnt, L+1, start+1);
 	}
 	
 	public static void main(String[] args) throws Exception {
@@ -60,27 +25,72 @@ public class Main_BJ_15686_치킨배달 {
 		
 		N = stoi(st.nextToken());
 		M = stoi(st.nextToken());
-		chicken =  new ArrayList<Integer[]>();
-		house = new ArrayList<Integer[]>();
-		
+		minDist = Integer.MAX_VALUE;
+		chicken = new ArrayList<Pos>();
+		house = new ArrayList<Pos>();
 		map = new int[N][N];
-		for(int r=0; r<N; r++) {
+		
+		for(int i=0; i<N; i++) {
 			st = new StringTokenizer(br.readLine(), " ");
-			for(int c=0; c<N; c++) {
-				map[r][c] = stoi(st.nextToken());
-				if (map[r][c]==1) house.add(new Integer[] {r, c});
-				if (map[r][c]==2) chicken.add(new Integer[] {r, c, 1});
+			for(int j=0; j<N; j++) {
+				map[i][j] = stoi(st.nextToken());
+				if(map[i][j]==1) house.add(new Pos(i, j));
+				if(map[i][j]==2) chicken.add(new Pos(i, j));
 			}
 		}
 		
-		if (chicken.size()<=M) System.out.println(distance());
+		close = new boolean[chicken.size()];
+		if(chicken.size()==M) getDist();
 		else {
-			close = new int[chicken.size()-M];
-			close(0, 0, 0);
-			System.out.println(disMin);
+			comb(0, 0);
 		}
-
+ 
+		System.out.println(minDist);
 		br.close();
+	}
+	
+	// 1. 폐업시킬 치킨집 고르기
+	static void comb(int cnt, int L) { 
+		// M개를 폐업시키는게 아니라 M개만 살려놓고 나머지를 폐업시킨다.
+		if(cnt==chicken.size()-M) {
+			getDist();
+			return;
+		}
+		
+		if(L==chicken.size()) return;
+		
+		close[L] = true;
+		comb(cnt+1, L+1);
+		
+		close[L] = false;
+		comb(cnt, L+1);
+	}
+	
+	// 2. 폐업되지 않은 치킨집과 집들간의 치킨거리 구하기
+	static void getDist() {
+		int total = 0;
+		
+		for(int i=0; i<house.size(); i++) {
+			Pos h = house.get(i);
+			
+			int min = Integer.MAX_VALUE;
+			for(int j=0; j<chicken.size(); j++) {
+				if(close[j]) continue;
+				Pos c = chicken.get(j);
+				min = Math.min(min, cal(h.r, h.c, c.r, c.c));
+			}
+			total += min;
+			if(total > minDist) return;
+		} 
+		minDist = Math.min(minDist, total);
+	}
+	
+	static int cal(int r1, int c1, int r2, int c2) {
+		return Math.abs(r1-r2) + Math.abs(c1-c2);
+	}
+ 
+	static int stoi(String str) {
+		return Integer.parseInt(str);
 	}
 
 }
