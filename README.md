@@ -67,6 +67,7 @@
 | [17142](https://www.acmicpc.net/problem/17142)               | [17142](https://github.com/jhk828/Algorithm/blob/940bc15f3a868cf5627a600c88b497f6112dcd97/BJ/Main_BJ_17142_%EC%97%B0%EA%B5%AC%EC%86%8C3.java) | **연구소 3**                     | `시뮬레이션` `DFS` `조합` | 21/04/19                             | 1. 비활성 바이러스 칸도 지나갈 수 있음. <br />but, 그 지점부터 0초로 시작x<br />2.  전염시킨 횟수 세며 다 시켰을 때만 minTime 갱신 | ☑         |
 | [15686](https://www.acmicpc.net/problem/15686)               | [15686](https://github.com/jhk828/Algorithm/blob/8223d4e3f6290757a17cb0d750050230e8c503ba/BJ/Main_BJ_15686_%EC%B9%98%ED%82%A8%EB%B0%B0%EB%8B%AC.java) | 치킨 배달                        | `시뮬레이션` `DFS` `조합` | 210217<br />21/04/19                 | M개를 폐업x <br />M개만 살려놓고 나머지를 폐업               |           |
 | [14503](https://www.acmicpc.net/problem/14503)               | [14503](https://github.com/jhk828/Algorithm/blob/59da043bfe048f813d338d3a2bd969b3d844e3c0/BJ/Main_BJ_14503_%EB%A1%9C%EB%B4%87%EC%B2%AD%EC%86%8C%EA%B8%B0.java) | 로봇 청소기                      | `시뮬레이션` `BFS`        | 21/04/20                             | [1. 왼쪽으로회전 <br />2.후진 3. 후진할때는 이미 방문한 칸도 갈 수 있음](https://jhk0307.tistory.com/359) | ☑         |
+| [2667](https://www.acmicpc.net/problem/2667)                 | 2667                                                         | 단지번호붙이기                   | `BFS` `DFS`               | 21/02/12<br />21/04/20               | 방문 안한 단지 위치를 시작점으로 bfs 탐색                    |           |
 
 
 
