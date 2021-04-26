@@ -3,7 +3,7 @@ import java.util.*;
 
 // 210301
 
-public class Solution_D_1767_프로세서연결하기 {
+public class Solution_샘플_1767_프로세서연결하기 {
 	
 	static int N, max, totalCnt, min, map[][];
 	static int[] dr = {-1, 1, 0, 0};

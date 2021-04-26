@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 // 210415
 
-public class Solution_모의_탈주범검거 {
+public class Solution_모의_1953_탈주범검거 {
 	static int N, M, R, C, L;
 	static int[][] map, v;
 	static int[] dr = { -1, 1, 0, 0 };

@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 // 210317
 
-public class Solution_D_1767_프로세서연결하기_2 {
+public class Solution_샘플_1767_프로세서연결하기_2 {
 	static int N, maxCnt, minLen, CN;
 	static int[][] map;
 	static ArrayList<Pos> coreList;
