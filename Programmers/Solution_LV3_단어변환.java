@@ -1,6 +1,6 @@
 // 210407 
 
-class Solution {
+class Solution_LV3_단어변환 {
     static boolean[] v;
     static int min, n;
 

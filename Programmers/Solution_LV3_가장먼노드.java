@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Solution {
+class Solution_LV3_가장먼노드 {
     static ArrayList<Integer>[] adjList;
     static int[] v;
     

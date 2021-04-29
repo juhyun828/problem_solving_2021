@@ -1,7 +1,7 @@
 import java.util.*;
 // 210409
 
-class Solution {
+class Solution_LV3_입국심사 {
     public long solution(int n, int[] times) {
         Arrays.sort(times);
         

@@ -1,4 +1,4 @@
-class Solution {
+class Solution_LV2_타겟넘버 {
     static int answer;
     
     static void dfs(int L, int total, int[] numbers, int target) {

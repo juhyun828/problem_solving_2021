@@ -2,7 +2,7 @@ import java.util.*;
 
 // 210410
 
-class Solution {
+class Solution_LV3_순위 {
     static int[][] adjMatrix;
     static int INF = 987654321;
     

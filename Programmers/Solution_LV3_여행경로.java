@@ -1,7 +1,7 @@
 import java.util.*;
 // 210408
 
-class Solution {
+class Solution_LV3_여행경로 {
     static String[][] sortedTickets;
     static int n; // 티켓 개수
     static Stack<String> st;

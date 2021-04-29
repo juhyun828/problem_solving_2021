@@ -127,7 +127,8 @@
 | [LV3 입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) | [LV3 입국심사](https://github.com/jhk828/Algorithm/blob/bb13b9bd53e6cf2c51da9a774b7e65631bde922f/Programmers/Programmers_LV3_%EC%9E%85%EA%B5%AD%EC%8B%AC%EC%82%AC.java) | `이분탐색`         | 21/04/09 |                                        | ☑         |
 | [LV3_순위](https://programmers.co.kr/learn/courses/30/lessons/49191) | [LV3_순위](https://github.com/jhk828/Algorithm/blob/master/Programmers/Programmers_LV3_%EC%88%9C%EC%9C%84.java) | `Graph` `최단경로` | 21/04/10 | INF 초기화 주의 / 플루이드워샬알고리즘 |           |
 | [LV1_완주하지못한선수](https://programmers.co.kr/learn/courses/30/lessons/42576?language=java) | [LV1_완주하지못한선수](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV1_%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%EB%AA%BB%ED%95%9C%EC%84%A0%EC%88%98.java)<br />[LV1_완주하지못한선수-2](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV1_%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%EB%AA%BB%ED%95%9C%EC%84%A0%EC%88%98_2.java) | `Hash`             | 21/04/27 |                                        |           |
-| [LV2_전화번호목록                                            |                                                              | `Hash`             | 21/04/28 |                                        |           |
+| [LV2_전화번호목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [LV2_전화번호목록](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%EB%AA%A9%EB%A1%9D.java) | `Hash`             | 21/04/28 |                                        |           |
+| [LV2_위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | LV2_위장                                                     | `Hash`             | 21/04/29 |                                        |           |
 
 
 

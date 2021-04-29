@@ -1,4 +1,4 @@
-class Solution {
+class Solution_LV3_네트워크 {
     static boolean[] v;
     
     static int check(int n) {
