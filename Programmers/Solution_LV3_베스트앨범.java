@@ -1,6 +1,5 @@
 import java.util.*;
-// 210430
-import java.util.Map.Entry;
+// 210501
 
 class Solution_LV3_베스트앨범 {
 	static class Song{
@@ -20,11 +19,9 @@ class Solution_LV3_베스트앨범 {
 		
 	}
 	
-	
     public int[] solution(String[] genres, int[] plays) {
     	
     	Map<String, Integer> genMap = new HashMap<String, Integer>();
-    	// classic: 총 재생횟수
     	ArrayList<Song> songlist = new ArrayList<>();
     	
     	for(int i=0; i<plays.length; i++) {
@@ -39,7 +36,6 @@ class Solution_LV3_베스트앨범 {
     			genMap.put(g, p);
     		}
     	}
-    	
     	
     	// 1. 정렬
     	Collections.sort(songlist, new Comparator<Song>() {
@@ -60,28 +56,24 @@ class Solution_LV3_베스트앨범 {
     		}
 		});
     	
-    	
     	// 2. 한 장르 당 두 개의 곡만 담는다.
-    	HashMap<String, ArrayList<Integer>> bestAlbumMap = new HashMap<>();
-    	
+    	HashMap<String, Integer> bestAlbumCntMap = new HashMap<>();
+    	ArrayList<Integer> bestAlbum = new ArrayList<>();
+    			
     	for(Song song: songlist) {
-    		if(bestAlbumMap.containsKey(song.genre)) {
-    			if(bestAlbumMap.get(song.genre).size()<2) {
-    				bestAlbumMap.get(song.genre).add(song.idx);
-    				
-    			} else continue;
+    		if(bestAlbumCntMap.containsKey(song.genre)) {
+    			int cnt = bestAlbumCntMap.get(song.genre);
+    			
+    			if(cnt>=2) continue;
+    			else {
+    				bestAlbumCntMap.put(song.genre, bestAlbumCntMap.get(song.genre)+1);
+    				bestAlbum.add(song.idx);
+    			}
     			
     		} else {
-    			bestAlbumMap.put(song.genre, new ArrayList<>());
-    			bestAlbumMap.get(song.genre).add(song.idx);
+    			bestAlbumCntMap.put(song.genre, 1);
+    			bestAlbum.add(song.idx);
     		}
-    	}
-    	
-    	ArrayList<Integer> bestAlbum = new ArrayList<>();
-    	for(Entry<String, ArrayList<Integer>> entry: bestAlbumMap.entrySet()) {
-    		bestAlbum.addAll(entry.getValue());
-    		System.out.print(entry.getKey() + " : ");
-    		System.out.println(entry.getValue());
     	}
     	
         int[] answer = new int[bestAlbum.size()];
