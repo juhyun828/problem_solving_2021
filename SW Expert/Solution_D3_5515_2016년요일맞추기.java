@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-// 210502
+// 210504
  
 public class Solution_D3_5515_2016년요일맞추기 {          //   1   2   3   4   5   6   7   8   9   10  11  12
     static int[] days = new int[] {0, 30, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
