@@ -131,7 +131,8 @@
 | [LV2_전화번호목록](https://programmers.co.kr/learn/courses/30/lessons/42577) | [LV2_전화번호목록](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%EB%AA%A9%EB%A1%9D.java) | `Hash`             | 21/04/28 |                                        |           |
 | [LV2_위장](https://programmers.co.kr/learn/courses/30/lessons/42578) | [LV2_위장](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EC%9C%84%EC%9E%A5.java) | `Hash`             | 21/04/29 |                                        |           |
 | [LV3_베스트앨범](https://programmers.co.kr/learn/courses/30/lessons/42579) | [LV3_베스트앨범](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV3_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94.java) | `Hash`             | 21/05/01 |                                        |           |
-| [LV1_키패드누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [LV1_키패드누르기](https://github.com/jhk828/Algorithm/blob/f1c8128f5668b5c975dfef3707724284417f531b/Programmers/Solution_LV1_%ED%82%A4%ED%8C%A8%EB%93%9C%EB%88%84%EB%A5%B4%EA%B8%B0.java) | `구현`             | 21/05/02 | 2020 카카오인턴십 1번                  |           |
+| [LV1_키패드누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [LV1_키패드누르기](https://github.com/jhk828/Algorithm/blob/f1c8128f5668b5c975dfef3707724284417f531b/Programmers/Solution_LV1_%ED%82%A4%ED%8C%A8%EB%93%9C%EB%88%84%EB%A5%B4%EA%B8%B0.java) | `구현`             | 21/05/0  |                                        |           |
+| [LV3_보석쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258) | LV3_보석쇼핑                                                 | `해쉬`             | 21/05/06 |                                        |           |
 
 
 
