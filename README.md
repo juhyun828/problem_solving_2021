@@ -139,7 +139,7 @@
 | [LV2_행렬테두리회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | [LV2_행렬테두리회전하기](https://github.com/jhk828/Algorithm/blob/fc94a21a4e9686ce6d829fa993624b4aea7c927a/Programmers/Solution_LV2_%ED%96%89%EB%A0%AC%ED%85%8C%EB%91%90%EB%A6%AC%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0.java) | `행렬`                  | 21/05/09 |                                                      |           |
 | [LV3_다단계칫솔판매](https://programmers.co.kr/learn/courses/30/lessons/77486) | [LV3_다단계칫솔판매](https://github.com/jhk828/Algorithm/commit/e9694657380b1c5606ff03596e69e869e92e785d) |                         | 21/05/10 | fail                                                 | ☑         |
 | [LV2_메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [LV2_메뉴리뉴얼](https://github.com/jhk828/Algorithm/commit/c666133e9ae4559f416dc389bf2e9b94f4455acb) | `조합` `dfs`            | 21/05/12 |                                                      | ☑         |
-| [LV2_순위검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | LV2_순위검색                                                 | `조합` `dfs` `이분탐색` | 21/05/13 |                                                      | ☑         |
+| [LV2_순위검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [LV2_순위검색](https://github.com/jhk828/Algorithm/blob/e37ed9d5e440c764251b10c685ff432b98fdd34e/Programmers/Solution_LV2_%EC%88%9C%EC%9C%84%EA%B2%80%EC%83%89.java) | `조합` `dfs` `이분탐색` | 21/05/13 | [시간초과 해결](https://jhk0307.tistory.com/370)     | ☑         |
 
 
 
