@@ -2,10 +2,26 @@ import java.io.*;
 import java.util.*;
 // 210528
 
-public class Solution_D4_1251_하나로 {
+public class Solution_D4_1251_하나로_pq {
     static int N;
     static double E; // 세율
     static long[][] adjMatrix;
+
+    static class Vertext implements Comparable<Vertext> {
+        int no;
+        long cost;
+
+        public Vertext(int no, long cost) {
+            this.no = no;
+            this.cost = cost;
+        }
+
+        @Override
+        public int compareTo(Vertext o) {
+            return Long.compare(this.cost, o.cost);
+        }
+    }
+
     public static void main(String[] args) throws Exception {
         //System.setIn(new FileInputStream("src/res/input_D4_1251_하나로.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -55,27 +71,29 @@ public class Solution_D4_1251_하나로 {
 
         // 시작 정점 거리값
         minEdge[0] = 0;
+        int cnt = 0;
 
-        for(int i=0; i<N; i++){
-            // midEdge에서 최소 비용으로 연결된 정점 찾기
-            long min = Long.MAX_VALUE;
-            int minVertext = 0;
-            for(int j=0; j<N; j++) {
-                if(!v[j] && minEdge[j] < min) {
-                    min = minEdge[j];
-                    minVertext = j;
-                }
-            }
+        PriorityQueue<Vertext> pq = new PriorityQueue<>();
+        pq.offer(new Vertext(0, minEdge[0])); // no, cost
 
-            totalWeight += min;
-            v[minVertext] = true;
+        while(true) {
+            // 신장트리에 포함되지 않은 정점 중 최소간선비용의 정점 선택
+            Vertext minVertex = pq.poll();
+            if(v[minVertex.no]) continue; // 이미 방문한 경우
+
+            // 방문하지 않았으면 신장트리에 포함시킴
+            v[minVertex.no] = true;
+            totalWeight += minVertex.cost;
+            if(++cnt == N) break;
 
             // 해당 정점과 인접한 정점을 더 적은 비용으로 방문 가능한지 찾기
             for(int j=0; j<N; j++) {
-                if(!v[j] && adjMatrix[minVertext][j]!=0 && minEdge[j] > adjMatrix[minVertext][j]) {
-                    minEdge[j] = adjMatrix[minVertext][j];
+                if(!v[j] && minEdge[j] > adjMatrix[minVertex.no][j]) {
+                    minEdge[j] = adjMatrix[minVertex.no][j];
+                    pq.offer(new Vertext(j, minEdge[j]));
                 }
             }
+
         }
         return totalWeight;
     }
