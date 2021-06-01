@@ -75,10 +75,10 @@
 | [2846](https://www.acmicpc.net/problem/2846)                 | [2846](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2846_%EC%98%A4%EB%A5%B4%EB%A7%89%EA%B8%B8.java) | 오르막길                     | 구현                        | 21/05/02                             |                                                              |           |
 | [2750](https://www.acmicpc.net/problem/2750)                 | [2750-1](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2750_%EC%88%98%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_mergeSort.java)<br />[2750-2](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2750_%EC%88%98%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0_quickSort.java) | 수 정렬하기                  | `Sort`                      | 21/05/16                             | 퀵 소트 & 머지소트                                           |           |
 | [1920](https://www.acmicpc.net/problem/1920)                 | 1920                                                         | 수 찾기                      | `이분탐색`                  | 21/05/17                             |                                                              |           |
-| [1303](https://www.acmicpc.net/problem/1303)                 | 1303                                                         | 전쟁-전투                    | `BFS`                       | 21/05/29                             |                                                              |           |
-| [1743](https://www.acmicpc.net/problem/1743)                 | 1743                                                         | 음식물 피하기                | `BFS`                       | 21/05/30                             |                                                              |           |
-| [2252](https://www.acmicpc.net/problem/2252)                 | 2252                                                         | 줄세우기                     | `위상정렬`                  | 21/05/30                             |                                                              |           |
-| [1647](https://www.acmicpc.net/problem/1647)                 | 1647                                                         | 도시분할계획                 | `MST` `Kruskal` `UnionFind` | 21/05/31                             |                                                              |           |
+| [1303](https://www.acmicpc.net/problem/1303)                 | [1303](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1303_%EC%A0%84%EC%9F%81%EC%A0%84%ED%88%AC.java) | 전쟁-전투                    | `BFS`                       | 21/05/29                             |                                                              |           |
+| [1743](https://www.acmicpc.net/problem/1743)                 | [1743](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1743_%EC%9D%8C%EC%8B%9D%EB%AC%BC%ED%94%BC%ED%95%98%EA%B8%B0.java) | 음식물 피하기                | `BFS`                       | 21/05/30                             |                                                              |           |
+| [2252](https://www.acmicpc.net/problem/2252)                 | [2252](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2252_%EC%A4%84%EC%84%B8%EC%9A%B0%EA%B8%B0.java) | 줄세우기                     | `위상정렬`                  | 21/05/30                             |                                                              |           |
+| [1647](https://www.acmicpc.net/problem/1647)                 | [1647](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1647_%EB%8F%84%EC%8B%9C%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D.java) | 도시분할계획                 | `MST` `Kruskal` `UnionFind` | 21/05/31                             |                                                              |           |
 
 
 
@@ -174,12 +174,12 @@
 
 ## etc
 
-| 문제번호 | 풀이 | 문제명   | 분류       | 날짜     | memo | 복습 필요 |
-| -------- | ---- | -------- | ---------- | -------- | ---- | --------- |
-| p.303    |      | 커리큘럼 | `위상정렬` | 21/06/01 |      |           |
-|          |      |          |            |          |      |           |
-|          |      |          |            |          |      |           |
-|          |      |          |            |          |      |           |
-|          |      |          |            |          |      |           |
-|          |      |          |            |          |      |           |
-|          |      |          |            |          |      |           |
+| 문제번호 | 풀이                                                         | 문제명   | 분류       | 날짜     | memo | 복습 필요 |
+| -------- | ------------------------------------------------------------ | -------- | ---------- | -------- | ---- | --------- |
+| p.303    | [커리큘럼](https://github.com/jhk828/Algorithm/blob/82934ba39b739fb73888a1b83f4c923674e596b1/etc/Main_p303_%EC%BB%A4%EB%A6%AC%ED%81%98%EB%9F%BC.java) | 커리큘럼 | `위상정렬` | 21/06/01 |      |           |
+|          |                                                              |          |            |          |      |           |
+|          |                                                              |          |            |          |      |           |
+|          |                                                              |          |            |          |      |           |
+|          |                                                              |          |            |          |      |           |
+|          |                                                              |          |            |          |      |           |
+|          |                                                              |          |            |          |      |           |
