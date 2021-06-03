@@ -79,6 +79,7 @@
 | [1743](https://www.acmicpc.net/problem/1743)                 | [1743](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1743_%EC%9D%8C%EC%8B%9D%EB%AC%BC%ED%94%BC%ED%95%98%EA%B8%B0.java) | 음식물 피하기                | `BFS`                       | 21/05/30                             |                                                              |           |
 | [2252](https://www.acmicpc.net/problem/2252)                 | [2252](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2252_%EC%A4%84%EC%84%B8%EC%9A%B0%EA%B8%B0.java) | 줄세우기                     | `위상정렬`                  | 21/05/30                             |                                                              |           |
 | [1647](https://www.acmicpc.net/problem/1647)                 | [1647](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1647_%EB%8F%84%EC%8B%9C%EB%B6%84%ED%95%A0%EA%B3%84%ED%9A%8D.java) | 도시분할계획                 | `MST` `Kruskal` `UnionFind` | 21/05/31                             |                                                              |           |
+| [18428](https://www.acmicpc.net/problem/18428)               | 18428                                                        | 감시피하기                   | `조합` `브루트포스`         | 21/06/03                             |                                                              |           |
 
 
 
