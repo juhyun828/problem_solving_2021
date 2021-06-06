@@ -1,10 +1,10 @@
 import java.io.*;
 import java.util.*;
-// 210604
+// 210606
 
-public class Main_BJ_16234_인구이동_fail {
+public class Main_BJ_16234_인구이동 {
     static int N, L, R, ans;
-    static int[][] map;
+    static int[][] map, newMap;
     static boolean[][] v, curV;
     static int[] dr = {-1, 0, 1, 0};
     static int[] dc = {0, -1, 0, 1};
@@ -20,7 +20,7 @@ public class Main_BJ_16234_인구이동_fail {
     }
 
     public static void main(String[] args) throws Exception {
-        System.setIn(new FileInputStream("src/res/input.txt"));
+        //System.setIn(new FileInputStream("src/res/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         StringTokenizer st = new StringTokenizer(br.readLine(), " ");
@@ -28,6 +28,8 @@ public class Main_BJ_16234_인구이동_fail {
         L = stoi(st.nextToken());
         R = stoi(st.nextToken());
         map = new int[N][N];
+        newMap = new int[N][N];
+
         q = new ArrayDeque<>();
         ans = 0;
         cnt = 0;
@@ -44,42 +46,40 @@ public class Main_BJ_16234_인구이동_fail {
         while(true) {
             boolean res = solve();
             if(!res){
-                print();
+                // 인구 이동이 일어나지 않으면 멈춘다.
                 break;
             }
             else {
-                print();
+                ++ans;
             }
-
         }
-
         System.out.println(ans);
 
         br.close();
+
     }
 
     static boolean solve() {
-        v = new boolean[N][N];
-        boolean flag = false;
+        boolean move = false; /// 인구 이동 유무
+        v = new boolean[N][N]; // 이번 턴에서의 방문 여부
 
         for(int i=0; i<N; i++) {
             for(int j=0; j<N; j++) {
                 for(int d=0; d<4; d++) {
                     int nr = i + dr[d];
                     int nc = j + dc[d];
-                    if(nr<0 || nr>=N || nc<0 || nc>=N) continue;
-                    if(v[nr][nc]) continue;
+                    if(nr<0 || nr>=N || nc<0 || nc>=N || v[nr][nc]) continue;
                     int diff = Math.abs(map[i][j] - map[nr][nc]);
                     if(L<=diff && diff<=R) {
-                        flag = true;
+                        move = true;
                         cnt = 2;
                         total = (map[i][j] + map[nr][nc]);
-                        v[i][j] = true;
+                        v[i][j] = true; // 이번 턴에서 방문
                         v[nr][nc] = true;
+                        // 이번 턴에서 방문한 두 지점에서 연결된 다른 구역 찾기
                         q.offer(new Pos(i, j));
                         q.offer(new Pos(nr, nc));
-                        ++ans;
-                        curV = new boolean[N][N];
+                        curV = new boolean[N][N]; // 이번 차례에서 방문하는 지점 따로 표기
                         curV[i][j] = true;
                         curV[nr][nc] = true;
                         bfs();
@@ -88,17 +88,27 @@ public class Main_BJ_16234_인구이동_fail {
             }
         }
 
-        return flag;
+        // 바뀐 인구 수 갱신
+        for(int i=0; i<N; i++) {
+            for(int j=0; j<N; j++) {
+                if(v[i][j]) {
+                    map[i][j] = newMap[i][j];
+                }
+            }
+        }
+
+        return move;
     }
 
     static void bfs() {
-        while(!q.isEmpty()) {
+        while (!q.isEmpty()) {
             Pos cur = q.poll();
             for(int d=0; d<4; d++) {
                 int nr = cur.r + dr[d];
                 int nc = cur.c + dc[d];
                 if(nr<0 || nr>=N || nc<0 || nc>=N || v[nr][nc]) continue;
                 int diff = Math.abs(map[cur.r][cur.c] - map[nr][nc]);
+
                 if(L<=diff && diff<=R) {
                     cnt += 1;
                     total += map[nr][nc];
@@ -115,17 +125,10 @@ public class Main_BJ_16234_인구이동_fail {
         for(int i=0; i<N; i++) {
             for(int j=0; j<N; j++) {
                 if(curV[i][j]) {
-                    map[i][j] = divided;
+                    newMap[i][j] = divided;
                 }
             }
         }
-    }
-
-    static void print() {
-        System.out.println("=========" + ans + "===============");
-        for(int i=0; i<N; i++)
-            System.out.println(Arrays.toString(map[i]));
-
     }
 
     static int stoi(String str) {
