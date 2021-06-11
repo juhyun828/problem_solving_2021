@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 // 210609
 
-public class Main_BJ_3699_변장 {
+public class Main_JO_3699_변장 {
     public static void main(String[] args) throws Exception {
         //System.setIn(new FileInputStream("src/res/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
