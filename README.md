@@ -88,7 +88,7 @@
 | [1149](https://www.acmicpc.net/problem/1149)                 | [1149](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1149_RGB%EA%B1%B0%EB%A6%AC.java) | RGB 거리                     | `DP`                        | 21/03/23<br />21/06/12               | [.](https://jhk0307.tistory.com/348)                         |           |
 | [1932](https://www.acmicpc.net/problem/1932)                 | [1932-1](https://github.com/jhk828/Algorithm/blob/4f42c216c2e6d244c3364361682e2970bd847743/BJ/Main_BJ_1932_%EC%A0%95%EC%88%98%EC%82%BC%EA%B0%81%ED%98%95.java)<br />1932-2 | 정수 삼각형                  | `DP`                        | 21/06/06<br />21/06/12               | https://jhk0307.tistory.com/373                              |           |
 | [2579](https://www.acmicpc.net/problem/2579)                 | 2579                                                         | 계단 오르기                  | `DP`                        | 21/06/12                             |                                                              |           |
-|                                                              |                                                              |                              |                             |                                      |                                                              |           |
+| [2156](https://www.acmicpc.net/problem/2156)                 | 2156                                                         | 포도주 시식                  | `DP`                        | 21/06/13                             |                                                              |           |
 
 
 
