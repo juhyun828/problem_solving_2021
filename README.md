@@ -90,6 +90,8 @@
 | [2579](https://www.acmicpc.net/problem/2579)                 | [2579](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2579_%EA%B3%84%EB%8B%A8%EC%98%A4%EB%A5%B4%EA%B8%B0.java) | 계단 오르기                  | `DP`                        | 21/06/12                             |                                                              |           |
 | [2156](https://www.acmicpc.net/problem/2156)                 | [2156](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2156_%ED%8F%AC%EB%8F%84%EC%A3%BC%EC%8B%9C%EC%8B%9D.java) | 포도주 시식                  | `DP`                        | 21/06/13                             |                                                              |           |
 | [11053](https://www.acmicpc.net/problem/11053)               | 11053                                                        | 가장 긴 증가하는 부분 수열   | `DP`                        | 21/06/14                             |                                                              |           |
+| [11054](https://www.acmicpc.net/problem/11054)               | 11054                                                        | 가장 긴 바이토닉 부분 수열   | `DP`                        | 21/06/15                             |                                                              |           |
+| [1912](https://www.acmicpc.net/problem/1912)                 | 1912                                                         | 연속합                       | `DP`                        | 21/06/16                             |                                                              |           |
 
 
 
