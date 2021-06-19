@@ -96,7 +96,8 @@
 | [9251](https://www.acmicpc.net/problem/9251)                 | 9251                                                         | LCS                          | `DP`                        | 21/06/17                             |                                                              |           |
 | [9372](https://www.acmicpc.net/problem/9372)                 | 9372                                                         | 상근이의 여행                | `MST`                       | 21/06/17                             |                                                              |           |
 | [10809](https://www.acmicpc.net/problem/10809)               | 10809                                                        | 알파벳 찾기                  | `문자열`                    | 21/06/17                             |                                                              |           |
-|                                                              |                                                              |                              |                             |                                      |                                                              |           |
+| [1197](https://github.com/jhk828/Algorithm/blob/b4192bf7e8b0f441ee7776a4b4f1f495051e6a1b/BJ/Main_BJ_1197_%EC%B5%9C%EC%86%8C%EC%8A%A4%ED%8C%A8%EB%8B%9D%ED%8A%B8%EB%A6%AC.java) | 1197                                                         | 최소스패닝트리               | `MST`                       | 21/06/18                             |                                                              |           |
+| [12865](https://www.acmicpc.net/problem/12865)               | 12865                                                        | 평범한 배낭                  | `MST`                       | 21/06/18                             |                                                              |           |
 
 
 
@@ -168,6 +169,9 @@
 | [LV3_광고삽입](https://programmers.co.kr/learn/courses/30/lessons/72414) | [LV3_광고삽입](https://github.com/jhk828/Algorithm/blob/25d2ed6d99da4a225da0546b83cdc6887cd6d797/Programmers/Solution_LV3_%EA%B4%91%EA%B3%A0%EC%82%BD%EC%9E%85.java) | `투포인터`              | 21/05/15 | [1.시분초->초 변환<br />2. 큐로 투포인터<br />3. 누적합 정수 범위](https://jhk0307.tistory.com/372) | ☑         |
 | [LV2_괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [LV2_괄호변환](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EA%B4%84%ED%98%B8%EB%B3%80%ED%99%98.java) | `문자열` `재귀`         | 21/06/02 | 문자열 + 재귀                                                | ☑☑☑       |
 | [LV2_문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [LV2_문자열압축](https://github.com/jhk828/Algorithm/blob/e50ec8995f02f9561f0e22627ed9c08de1301db8/Programmers/Solution_LV2_%EB%AC%B8%EC%9E%90%EC%97%B4%EC%95%95%EC%B6%95.java) | `문자열`                | 21/06/08 |                                                              | ☑☑☑       |
+| [LV1_모의고사](https://programmers.co.kr/learn/courses/30/lessons/42840) | LV1_모의고사                                                 | `완전탐색`              | 21/06/19 |                                                              |           |
+| [LV1_가운데글자가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903?language=java) | LV1_가운데글자가져오기                                       | `문자열`                | 21/06/19 | `substring()` -> `subString`이아님                           |           |
+| [LV1_서울에서김서방찾기](https://programmers.co.kr/learn/courses/30/lessons/12919) | LV1_서울에서김서방찾기                                       | `문자열`                | 21/06/19 | 이진탐색은 미리 정렬된 경우만 쓸수있음!                      |           |
 
 
 
