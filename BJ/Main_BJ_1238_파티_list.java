@@ -76,7 +76,7 @@ public class Main_BJ_1238_파티_list {
             v[cur.v] = true;
             // cur을 경유하며 최단 거리를 찾는다.
             for(Node node: list[cur.v]) {
-                if(dist[node.v] > cur.w + node.w) {
+                if(!v[cur.v] && dist[node.v] > cur.w + node.w) {
                     dist[node.v] = cur.w + node.w;
                     pq.offer(new Node(node.v, dist[node.v]));
                 }
