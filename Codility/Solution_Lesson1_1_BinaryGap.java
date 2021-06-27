@@ -1,6 +1,6 @@
 // 210626
 
-class Solution_Lessons1_01BinaryGap {
+class Solution_Lesson1_1_BinaryGap {
 	public int solution(int N) {
         // 이진수로 변환
         String binary = Integer.toBinaryString(N);
