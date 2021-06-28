@@ -102,7 +102,7 @@
 | [1238](https://www.acmicpc.net/problem/1238)                 | [1238](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1238_%ED%8C%8C%ED%8B%B0_list.java) | 파티                         | `최단경로` `Dijkstra`       | 21/06/25                             | [도착지 갔다가 돌아오기](https://jhk0307.tistory.com/377)    |           |
 | [2629](https://www.acmicpc.net/problem/2629)                 | 2629                                                         | 양팔저울                     | `DP`                        | 21/06/25                             | [배낭 문제 응용](https://jhk0307.tistory.com/378)            |           |
 | [1197](https://github.com/jhk828/Algorithm/blob/b4192bf7e8b0f441ee7776a4b4f1f495051e6a1b/BJ/Main_BJ_1197_%EC%B5%9C%EC%86%8C%EC%8A%A4%ED%8C%A8%EB%8B%9D%ED%8A%B8%EB%A6%AC.java) | [1197]                                                       | 최소스패닝트리               | `MST`                       | 21/06/28                             | 합집합 연산이 가능!해야 사이클 발생 x                        |           |
-|                                                              |                                                              |                              |                             |                                      |                                                              |           |
+| [14719](https://www.acmicpc.net/problem/14719)               | 14719                                                        | 빗물                         | `구현`                      |                                      |                                                              |           |
 
 
 
@@ -179,6 +179,10 @@
 | [LV1_서울에서김서방찾기](https://programmers.co.kr/learn/courses/30/lessons/12919) | LV1_서울에서김서방찾기                                       | `문자열`                  | 21/06/19 | 이진탐색은 미리 정렬된 경우만 쓸수있음!                      |           |
 | [LV2_단체사진찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | LV2_단체사진찍기                                             | `문자열` `dfs` `백트래킹` | 21/06/20 | [백트래킹](https://jhk0307.tistory.com/376)                  |           |
 | [LV2_짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | LV2_짝지어 제거하기                                          | `자료구조` `Stack`        | 21/06/28 |                                                              |           |
+| [LV2_게임맵최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | LV2_게임맵최단거리                                           | `bfs` `최단거리`          | 21/06/29 | dfs 시간초과 / bfs : 가중치x, 출발지로부터 거리순 방문 -> 최단거리 |           |
+| [LV2_숫자의표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | LV2_숫자의표현                                               | `dfs` `백트래킹`          | 21/06/29 |                                                              |           |
+| [LV1_K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748?language=java) | LV1_K번째수                                                  | `정렬`                    | 21/06/29 |                                                              |           |
+| [LV2_가장큰수](https://programmers.co.kr/learn/courses/30/lessons/42746?language=python3) |                                                              | `정렬`                    |          |                                                              |           |
 
 
 
