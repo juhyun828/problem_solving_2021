@@ -178,6 +178,7 @@
 | [LV1_가운데글자가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903?language=java) | LV1_가운데글자가져오기                                       | `문자열`                  | 21/06/19 | `substring()` -> `subString`이아님                           |           |
 | [LV1_서울에서김서방찾기](https://programmers.co.kr/learn/courses/30/lessons/12919) | LV1_서울에서김서방찾기                                       | `문자열`                  | 21/06/19 | 이진탐색은 미리 정렬된 경우만 쓸수있음!                      |           |
 | [LV2_단체사진찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | LV2_단체사진찍기                                             | `문자열` `dfs` `백트래킹` | 21/06/20 | [백트래킹](https://jhk0307.tistory.com/376)                  |           |
+| [LV2_짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | LV2_짝지어 제거하기                                          | `자료구조` `Stack`        | 21/06/28 |                                                              |           |
 
 
 
