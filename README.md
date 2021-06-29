@@ -182,7 +182,10 @@
 | [LV2_게임맵최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | LV2_게임맵최단거리                                           | `bfs` `최단거리`          | 21/06/29 | dfs 시간초과 / bfs : 가중치x, 출발지로부터 거리순 방문 -> 최단거리 |           |
 | [LV2_숫자의표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | LV2_숫자의표현                                               | `dfs` `백트래킹`          | 21/06/29 |                                                              |           |
 | [LV1_K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748?language=java) | LV1_K번째수                                                  | `정렬`                    | 21/06/29 |                                                              |           |
-| [LV2_가장큰수](https://programmers.co.kr/learn/courses/30/lessons/42746?language=python3) |                                                              | `정렬`                    |          |                                                              |           |
+| [LV2_가장큰수](https://programmers.co.kr/learn/courses/30/lessons/42746?language=python3) | LV2_가장큰수                                                 | `정렬`                    | 21/06/29 | str1.compareTo(str2);                                        |           |
+| [LV2_더맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | LV2_더맵게                                                   | `heap`                    | 21/06/29 |                                                              |           |
+| [LV3_이중우선순위큐](21/06/29)                               | LV3_이중우선순위큐                                           | `heap`                    | 21/06/29 | 힙 우선순위 변경, `remove()`                                 |           |
+|                                                              |                                                              |                           |          |                                                              |           |
 
 
 
