@@ -37,6 +37,7 @@ public class Main_BJ_1976_여행가자 {
         }
 
         int start = plans[0]; // 여행 계획의 시작지
+        start = find(start);
         for(int i=1; i<M; i++) {
             int next = plans[i]; // 다음 도착지
             // 맨 처음 출발 도시와 연결되있지 않은 도시가 있으면 여행 계획이 불가능한 것
@@ -59,7 +60,7 @@ public class Main_BJ_1976_여행가자 {
         int xRoot = find(x);
         int yRoot = find(y);
         if(xRoot!=yRoot) {
-            if(x < y) {
+            if(xRoot < yRoot) {
                 parents[yRoot] = xRoot;
             } else {
                 parents[xRoot] = yRoot;
