@@ -2,23 +2,17 @@ import java.io.*;
 import java.util.*;
 // 210702
 
-public class Main_BJ_1261_알고스팟_dijkstra {
+public class Main_BJ_1261_알고스팟_bfs {
     static int M, N; // 가로, 세로
     // 0, 0 -> N-1, M-1 이동
     static int[][] map;
     static int[] dr = {-1, 0, 1, 0};
     static int[] dc = {0, -1, 0, 1};
-    static class Pos implements Comparable<Pos>{
-        int r, c, cnt;
-        public Pos(int r, int c, int cnt) {
+    static class Pos {
+        int r, c;
+        public Pos(int r, int c) {
             this.r = r;
             this.c = c;
-            this.cnt = cnt;
-        }
-
-        @Override
-        public int compareTo(Pos o) {
-            return Integer.compare(this.cnt, o.cnt);
         }
     }
 
@@ -36,45 +30,44 @@ public class Main_BJ_1261_알고스팟_dijkstra {
             }
         }
 
-        int min = dikstra();
+        int min = bfs();
         System.out.println(min);
-
         br.close();
     }
 
-    static int dikstra() {
-        int[][] dist = new int[N][M];
+    static int bfs() {
+        int[][] v = new int[N][M];
         for(int i=0; i<N; i++) {
-            Arrays.fill(dist[i], Integer.MAX_VALUE);
+            Arrays.fill(v[i], -1);
         }
-        PriorityQueue<Pos> pq = new PriorityQueue<Pos>();
+        Queue<Pos> q = new ArrayDeque<Pos>();
         // 시작점
-        dist[0][0] = 0;
-        pq.offer(new Pos(0, 0, 0));
+        q.offer(new Pos(0, 0));
+        v[0][0] = 0;
 
-        while(!pq.isEmpty()){
-            Pos cur = pq.poll();
-            if(dist[cur.r][cur.c] < cur.cnt) continue;
+        while(!q.isEmpty()) {
+            Pos cur = q.poll();
 
             for(int d=0; d<4; d++) {
                 int nr = cur.r + dr[d];
                 int nc = cur.c + dc[d];
                 if(nr<0 || nr>=N || nc<0 || nc>=M) continue;
-                if (map[nr][nc]==0) { // 빈 방
-                    if(dist[nr][nc] > cur.cnt) {
-                        dist[nr][nc] = cur.cnt;
-                        pq.offer(new Pos(nr, nc, dist[nr][nc]));
-                    }
-
-                } else { // 벽 부수고 가야 함
-                    if(dist[nr][nc] > cur.cnt+1) {
-                        dist[nr][nc] = cur.cnt+1;
-                        pq.offer(new Pos(nr, nc, dist[nr][nc]));
+                if(map[nr][nc]==0) {
+                    if(v[nr][nc]==-1 || v[nr][nc] > v[cur.r][cur.c]) {
+                        v[nr][nc] = v[cur.r][cur.c];
+                        q.offer(new Pos(nr, nc));
                     }
                 }
+                else { // 벽인 경우
+                    if(v[nr][nc]==-1 || v[nr][nc] > v[cur.r][cur.c] + 1) {
+                            v[nr][nc] = v[cur.r][cur.c] + 1;
+                            q.offer(new Pos(nr, nc));
+                        }
+                    }
+                }
+
             }
-        }
-        return dist[N-1][M-1];
+        return v[N-1][M-1];
     }
 
     static int stoi(String str) {
