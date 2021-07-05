@@ -196,7 +196,7 @@
 | [LV2_오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [LV2_오픈채팅방](https://github.com/jhk828/Algorithm/blob/02a7503ab9d27f31a7d32220c70b46b1da286dd3/Programmers/Solution_LV2_%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9.java) | `문자열`                  | 21/07/03 |                                                              |           |
 | [LV1_음양더하기](https://programmers.co.kr/learn/courses/30/lessons/76501) | LV1_음양더하기                                               | `구현`                    | 21/07/04 |                                                              |           |
 | [LV2_괄호회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | LV2_괄호회전하기                                             | `stack`                   | 21/07/04 |                                                              |           |
-|                                                              |                                                              |                           |          |                                                              |           |
+| [LV2_프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | LV2_프린터                                                   | `queue` `iterator`        | 21/07/05 |                                                              |           |
 
 
 
