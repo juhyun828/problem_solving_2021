@@ -1,7 +1,7 @@
 import java.util.*;
 // 210514
 
-class Solution_LV3_합승택시요금 {
+class Solution_LV3_합승택시요금_floyd {
     public int solution(int n, int s, int a, int b, int[][] fares) {   
         // 1. 모든 정점들 사이의 인접 행렬 만들기 & 양방향 그래프
         int INF = 987654321;

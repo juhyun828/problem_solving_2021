@@ -3,8 +3,7 @@
 -------------------
 
 > - since 210119~
->
-> - 1일 1 commit  목표
+>- 1일 1 commit  목표
 > - 문제 사이트별로, 날짜 순으로 기록합니다.
 > - README에 기록하지 않으며 풀던 문제들은 복습하며 추가 중 입니다.
 
@@ -176,7 +175,6 @@
 | [LV2_행렬테두리회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | [LV2_행렬테두리회전하기](https://github.com/jhk828/Algorithm/blob/fc94a21a4e9686ce6d829fa993624b4aea7c927a/Programmers/Solution_LV2_%ED%96%89%EB%A0%AC%ED%85%8C%EB%91%90%EB%A6%AC%ED%9A%8C%EC%A0%84%ED%95%98%EA%B8%B0.java) | `행렬`                     | 21/05/09 |                                                              |           |
 | [LV3_다단계칫솔판매](https://programmers.co.kr/learn/courses/30/lessons/77486) | [LV3_다단계칫솔판매](https://github.com/jhk828/Algorithm/commit/e9694657380b1c5606ff03596e69e869e92e785d) |                            | 21/05/10 | fail                                                         | ☑         |
 | [LV2_순위검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [LV2_순위검색](https://github.com/jhk828/Algorithm/blob/e37ed9d5e440c764251b10c685ff432b98fdd34e/Programmers/Solution_LV2_%EC%88%9C%EC%9C%84%EA%B2%80%EC%83%89.java) | `조합` `dfs` `이분탐색`    | 21/05/13 | [시간초과 해결](https://jhk0307.tistory.com/370)             | ☑         |
-| [LV3_택시합승요금](https://programmers.co.kr/learn/courses/30/lessons/72413) | [LV3_택시합승요금](https://github.com/jhk828/Algorithm/blob/e74a1c7cd0ffb92a8c409d9d2d80f5fb82053171/Programmers/Solution_LV3_%ED%95%A9%EC%8A%B9%ED%83%9D%EC%8B%9C%EC%9A%94%EA%B8%88.java) | `Graph` `플루이드`         | 21/05/14 | [최대값 연산오류 문제](https://jhk0307.tistory.com/371)      | ☑         |
 | [LV3_광고삽입](https://programmers.co.kr/learn/courses/30/lessons/72414) | [LV3_광고삽입](https://github.com/jhk828/Algorithm/blob/25d2ed6d99da4a225da0546b83cdc6887cd6d797/Programmers/Solution_LV3_%EA%B4%91%EA%B3%A0%EC%82%BD%EC%9E%85.java) | `투포인터`                 | 21/05/15 | [1.시분초->초 변환<br />2. 큐로 투포인터<br />3. 누적합 정수 범위](https://jhk0307.tistory.com/372) | ☑         |
 | [LV2_괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [LV2_괄호변환](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EA%B4%84%ED%98%B8%EB%B3%80%ED%99%98.java) | `문자열` `재귀`            | 21/06/02 | 문자열 + 재귀                                                | ☑☑☑       |
 | [LV2_문자열압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [LV2_문자열압축](https://github.com/jhk828/Algorithm/blob/e50ec8995f02f9561f0e22627ed9c08de1301db8/Programmers/Solution_LV2_%EB%AC%B8%EC%9E%90%EC%97%B4%EC%95%95%EC%B6%95.java) | `문자열`                   | 21/06/08 |                                                              | ☑☑☑       |
@@ -196,9 +194,10 @@
 | [LV1_음양더하기](https://programmers.co.kr/learn/courses/30/lessons/76501) | LV1_음양더하기                                               | `구현`                     | 21/07/04 |                                                              |           |
 | [LV2_괄호회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | LV2_괄호회전하기                                             | `stack`                    | 21/07/04 |                                                              |           |
 | [LV2_프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [LV2_프린터](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%ED%94%84%EB%A6%B0%ED%84%B0.java) | `queue` `iterator`         | 21/07/05 | 큐 조회 -> `Iterator`                                        |           |
-| [LV2_.기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | LV2_.기능개발                                                | `queue`                    | 21/07/06 |                                                              |           |
-| [LV1_신규아이디추천](https://programmers.co.kr/learn/courses/30/lessons/72410) | LV1_신규아이디추천                                           | `문자열`                   | 21/07/06 |                                                              |           |
-| [LV2_메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | LV2_메뉴리뉴얼                                               | `조합` `dfs` `Collections` | 21/07/06 | [해시->배열, `char[]`->`String`, `Collections.max(list)`](https://jhk0307.tistory.com/382) |           |
+| [LV2_.기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [`queue`](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV1_%EC%8B%A0%EA%B7%9C%EC%95%84%EC%9D%B4%EB%94%94%EC%B6%94%EC%B2%9C.java)<br />[`list`](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C_%EB%A6%AC%EC%8A%A4%ED%8A%B8.java) | `queue`                    | 21/07/06 |                                                              |           |
+| [LV1_신규아이디추천](https://programmers.co.kr/learn/courses/30/lessons/72410) | [LV1_신규아이디추천](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV1_%EC%8B%A0%EA%B7%9C%EC%95%84%EC%9D%B4%EB%94%94%EC%B6%94%EC%B2%9C.java) | `문자열`                   | 21/07/06 |                                                              |           |
+| [LV2_메뉴리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411) | [LV2_메뉴리뉴얼](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EB%A9%94%EB%89%B4%EB%A6%AC%EB%89%B4%EC%96%BC_2.java) | `조합` `dfs` `Collections` | 21/07/06 | [해시->배열, `char[]`->`String`, `Collections.max(list)`](https://jhk0307.tistory.com/382) |           |
+| [LV3_택시합승요금](https://programmers.co.kr/learn/courses/30/lessons/72413) | LV3_택시합승요금                                             | `graph` `dijkstra`         | 21/07/07 |                                                              |           |
 
 
 
