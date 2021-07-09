@@ -109,6 +109,7 @@
 | [15591](https://www.acmicpc.net/problem/15591)               | [15591](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_15591_MooTube.java) | MooTube                      | `bfs` `graph`                   | 21/07/04                             |                                                              |           |
 | [1197](https://www.acmicpc.net/problem/1197)                 | [1197](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1197_%EC%B5%9C%EC%86%8C%EC%8A%A4%ED%8C%A8%EB%8B%9D%ED%8A%B8%EB%A6%AC_Kruskal.java) | 최소스패닝트리               | `MST`                           | 21/07/05                             | 합집합 연산이 가능!해야 사이클 발생 x                        |           |
 | [1303](https://www.acmicpc.net/problem/1303)                 | [1303](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1303_%EC%A0%84%EC%9F%81%EC%A0%84%ED%88%AC.java) | 전쟁 - 전투                  | `bfs`                           | 21/05/29<br />21/07/08               |                                                              |           |
+| [16953](https://www.acmicpc.net/problem/16953)               | 16953                                                        | A → B                        | `dfs` `bfs`                     | 21/07/09                             |                                                              |           |
 
 
 
