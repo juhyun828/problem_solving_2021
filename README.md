@@ -200,7 +200,7 @@
 | [LV3_택시합승요금](https://programmers.co.kr/learn/courses/30/lessons/72413) | [LV3_택시합승요금](https://github.com/jhk828/Algorithm/blob/ad84b9df812f46ab597b924bbb785ad89ef4c92f/Programmers/Solution_LV3_%ED%95%A9%EC%8A%B9%ED%83%9D%EC%8B%9C%EC%9A%94%EA%B8%88_dijkstra.java) | `graph` `dijkstra`         | 21/07/07               |                                                              |           |
 | [LV2_순위검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [LV2_순위검색](https://github.com/jhk828/Algorithm/blob/e37ed9d5e440c764251b10c685ff432b98fdd34e/Programmers/Solution_LV2_%EC%88%9C%EC%9C%84%EA%B2%80%EC%83%89.java) | `조합` `dfs` `이분탐색`    | 21/05/13<br />21/07/07 | [시간초과 해결](https://jhk0307.tistory.com/370)<br />`Collections.binarySearch()`쓰니까 왜 안되는거지 |           |
 | [LV3_자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) |                                                              | `시뮬레이션` `brute force` |                        | fail                                                         |           |
-| [LV3_기둥과보설치](https://programmers.co.kr/learn/courses/30/lessons/60061) |                                                              | `시뮬레이션`               |                        | fail                                                         |           |
+| [LV3_기둥과보설치](https://programmers.co.kr/learn/courses/30/lessons/60061) | LV3_기둥과보설치                                             | `시뮬레이션`               | 21/07/09               |                                                              | ☑         |
 
 
 
