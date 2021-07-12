@@ -203,6 +203,10 @@
 | [LV3_기둥과보설치](https://programmers.co.kr/learn/courses/30/lessons/60061) | LV3_기둥과보설치                                             | `시뮬레이션`               | 21/07/09               |                                                              | ☑         |
 | [LV1_크레인인형뽑기게임](https://programmers.co.kr/learn/courses/30/lessons/64061) | LV1_크레인인형뽑기게임                                       | `시뮬레이션`               | 21/07/11               |                                                              |           |
 | [LV3_외벽점검하기](https://programmers.co.kr/learn/courses/30/lessons/60062) | LV3_외벽점검하기                                             | `시뮬레이션`               | 21/07/11               |                                                              | ☑         |
+| [LV1_폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | LV1_폰켓몬                                                   | `set`                      | 21/07/11               |                                                              | ☑         |
+| [LV1_내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | LV1_내적                                                     | `구현`                     | 21/07/11               |                                                              |           |
+|                                                              |                                                              |                            |                        |                                                              |           |
+|                                                              |                                                              |                            |                        |                                                              |           |
 
 
 
