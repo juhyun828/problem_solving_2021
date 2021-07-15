@@ -212,7 +212,7 @@
 | [LV1_약수와개수의덧셈](https://programmers.co.kr/learn/courses/30/lessons/77884) | LV1_약수와개수의덧셈                                         | `수학`                     | 21/07/13               |                                                              |           |
 | [LV1_소수만들기](https://programmers.co.kr/learn/courses/30/lessons/12977) | LV1_소수만들기                                               | `수학` `dfs`               | 21/07/14               |                                                              |           |
 | [LV2_뉴스클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677) | LV2_뉴스클러스터링                                           | `집합` `문자열`            | 21/07/14               | fail, 테케3번이이해가x                                       |           |
-|                                                              |                                                              |                            |                        |                                                              |           |
+| [LV1_실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | LV1_실패율                                                   |                            | 21/07/15               | 0으로 나눌 때 주의                                           |           |
 |                                                              |                                                              |                            |                        |                                                              |           |
 
 
