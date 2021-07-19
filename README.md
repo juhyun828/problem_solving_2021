@@ -222,6 +222,7 @@
 | [LV2_다리를지나는트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | LV2_다리를지나는트럭                                         | `스택` `큐`                | 21/07/18               |                                                              |           |
 | [LV2_영어끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | LV2_영어끝말잇기                                             | `문자열`                   | 21/07/18               |                                                              |           |
 | [LV2_주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | LV2_주식가격                                                 |                            | 21/07/18               |                                                              |           |
+| [LV2_프랜즈4블록](Solution_LV2_프랜즈4블록)                  | LV2_프랜즈4블록                                              | `시뮬레이션`               | 21/07/19               |                                                              |           |
 
 
 
