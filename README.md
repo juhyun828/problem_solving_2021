@@ -226,6 +226,7 @@
 | [LV2_점프와순간이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | [LV2_점프와순간이동](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EC%A0%90%ED%94%84%EC%99%80%EC%88%9C%EA%B0%84%EC%9D%B4%EB%8F%99.java) | `수학`                     | 21/07/20               |                                                              |           |
 | [LV2_쿼드압축후개수세기](https://programmers.co.kr/learn/courses/30/lessons/68936) | [LV2_쿼드압축후개수세기](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EC%BF%BC%EB%93%9C%EC%95%95%EC%B6%95%ED%9B%84%EA%B0%9C%EC%88%98%EC%84%B8%EA%B8%B0.java) | `분할정복`                 | 21/07/21               |                                                              |           |
 | [LV2_방문길이](https://programmers.co.kr/learn/courses/30/lessons/49994) | LV2_방문길이                                                 | `시뮬레이션`               | 21/07/22               | `(sr, sc) -> (nr, nc)` `(nr, nc) -> (sr, sc)`는 같은 길      |           |
+| [LV2_방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683) | LV2_방금그곡                                                 | `문자열`                   | 21/07/22               |                                                              |           |
 
 
 
@@ -234,21 +235,6 @@
 | 문제번호                                                  | 풀이                                                         | 문제명 | 분류          | 날짜                | memo             | 복습 필요 |
 | --------------------------------------------------------- | ------------------------------------------------------------ | ------ | ------------- | ------------------- | ---------------- | --------- |
 | [기초 100제](https://codeup.kr/problemsetsol.php?psid=23) | [1~49번](https://github.com/jhk828/Algorithm/tree/master/CodeUp/CodeUp100%EC%A0%9C/1~49)<br />[50~100번](https://github.com/jhk828/Algorithm/tree/master/CodeUp/CodeUp100%EC%A0%9C/50~100) |        | `Java 사용법` | 21/01/19 ~ 21/01/16 | 입출력 방법 주의 |           |
-
-
-
-
-
-<details markdown="1"> 
-    <summary>Code Up</summary>  
-    <!--summary 아래 빈칸 공백 두고 내용을 적는공간-->  
-    ## Code Up
-
-| 문제번호                                                  | 풀이                                                         | 문제명 | 분류          | 날짜                | memo             | 복습 필요 |
-| --------------------------------------------------------- | ------------------------------------------------------------ | ------ | ------------- | ------------------- | ---------------- | --------- |
-| [기초 100제](https://codeup.kr/problemsetsol.php?psid=23) | [1~49번](https://github.com/jhk828/Algorithm/tree/master/CodeUp/CodeUp100%EC%A0%9C/1~49)<br />[50~100번](https://github.com/jhk828/Algorithm/tree/master/CodeUp/CodeUp100%EC%A0%9C/50~100) |        | `Java 사용법` | 21/01/19 ~ 21/01/16 | 입출력 방법 주의 |           |
-
-</details>
 
 
 
