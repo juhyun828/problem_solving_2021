@@ -1,51 +1,48 @@
 import java.io.*;
 import java.util.*;
-// 210211
+// 210724
 
 public class Main_BJ_2798_블랙잭 {
-	
-	static int N, M;
-	static int[] arr;
-	static int max = 0;
-	static boolean[] isSelected;
-	
-	static void permutation(int cnt, int L, int total) {
-		if (total > M) return;
-		
-		if (cnt == 3) {
-			max = Math.max(max, total);
-			return;
-		}
-		
-		if (L > N) return;
-		
-		for(int i=0; i<N; i++) {
-			if (isSelected[i]) continue;
-			
-			isSelected[i] = true;
-			permutation(cnt+1, L+1, total+arr[i]);
-			
-			isSelected[i] = false;
-		}
-		
-	}
-	
-	public static void main(String[] args) {
+    static int N, M, max;
+    static int[] input;
+    public static void main(String[] args) throws Exception {
+        //System.setIn(new FileInputStream("src/res/input.txt"));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
-		Scanner sc = new Scanner(System.in);
-		
-		N = sc.nextInt();
-		M = sc.nextInt();
-		arr = new int[N];
-		isSelected = new boolean[N];
-		
-		for(int i=0; i<N; i++) {
-			arr[i] = sc.nextInt();
-		}
-		
-		permutation(0, 0, 0);
-		System.out.println(max);
-	
-		sc.close();
-	}
+        N = stoi(st.nextToken());
+        M = stoi(st.nextToken());
+        max = 0;
+
+        st = new StringTokenizer(br.readLine(), " ");
+        input = new int[N];
+        for(int i=0; i<N; i++) {
+            input[i] = stoi(st.nextToken());
+        }
+
+        dfs(0, 0, 0);
+        System.out.println(max);
+
+        br.close();
+    }
+
+    static void dfs(int cnt, int L, int total) {
+        if(total > M) return;
+
+        if(cnt==3) {
+            if(total <= M) max = Math.max(max, total);
+            return;
+        }
+
+        if(L==N) {
+            return;
+        }
+
+        dfs(cnt+1, L+1, total + input[L]);
+        dfs(cnt, L+1, total);
+    }
+
+    static int stoi(String str) {
+        return Integer.parseInt(str);
+    }
 }
