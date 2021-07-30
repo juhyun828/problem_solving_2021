@@ -125,6 +125,7 @@
 | [1302](https://www.acmicpc.net/problem/1302)                 | 1302                                                         | 베스트셀러                   | `해시`                          | 21/07/28                             | `Collections.max(map.values())`                              |      |
 | [1668](https://www.acmicpc.net/problem/1668)                 | 1668                                                         | 트로피진열                   | `구현`                          | 21/07/28                             |                                                              |      |
 | [2110](https://www.acmicpc.net/problem/2110)                 | 2110                                                         | 공유기 설치                  | `이진탐색`                      | 21/07/29                             | fail                                                         | ☑    |
+| [1991](https://www.acmicpc.net/problem/1991)                 | 1991                                                         | 트리 순회                    | `트리`                          | 21/07/30                             |                                                              |      |
 
 
 
