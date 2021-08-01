@@ -122,11 +122,11 @@
 | [7490](https://www.acmicpc.net/problem/7490)                 | [7490](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_7490_0%EB%A7%8C%EB%93%A4%EA%B8%B0.java) | 0만들기                      | `재귀` `문자열`                 | 21/07/27                             |                                                              |      |
 | [1543](https://www.acmicpc.net/problem/1543)                 | [1543](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1543_%EB%AC%B8%EC%84%9C%EA%B2%80%EC%83%89.java) | 문서 검색                    | `문자열` `브루트포스`           | 21/07/27                             |                                                              |      |
 | [1568](https://www.acmicpc.net/problem/1568)                 | [1568](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1568_%EC%83%88.java) | 새                           | `구현`                          | 21/07/27                             |                                                              |      |
-| [1302](https://www.acmicpc.net/problem/1302)                 | 1302                                                         | 베스트셀러                   | `해시`                          | 21/07/28                             | `Collections.max(map.values())`                              |      |
-| [1668](https://www.acmicpc.net/problem/1668)                 | 1668                                                         | 트로피진열                   | `구현`                          | 21/07/28                             |                                                              |      |
-| [2110](https://www.acmicpc.net/problem/2110)                 | 2110                                                         | 공유기 설치                  | `이진탐색`                      | 21/07/29                             | fail                                                         | ☑    |
-| [1991](https://www.acmicpc.net/problem/1991)                 | 1991                                                         | 트리 순회                    | `트리`                          | 21/07/30                             |                                                              |      |
-| [1927](https://www.acmicpc.net/problem/1927)                 | 1927                                                         | 최소힙                       | `힙`                            | 21/07/31                             |                                                              |      |
+| [1302](https://www.acmicpc.net/problem/1302)                 | [1302](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1302_%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%85%80%EB%9F%AC.java) | 베스트셀러                   | `해시`                          | 21/07/28                             | `Collections.max(map.values())`                              |      |
+| [1668](https://www.acmicpc.net/problem/1668)                 | [1668](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1668_%ED%8A%B8%EB%A1%9C%ED%94%BC%EC%A7%84%EC%97%B4.java) | 트로피진열                   | `구현`                          | 21/07/28                             |                                                              |      |
+| [2110](https://www.acmicpc.net/problem/2110)                 | [2110](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2110_%EA%B3%B5%EC%9C%A0%EA%B8%B0%EC%84%A4%EC%B9%98%20.java) | 공유기 설치                  | `이진탐색`                      | 21/07/29                             | fail                                                         | ☑    |
+| [1991](https://www.acmicpc.net/problem/1991)                 | [1991](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1991_%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C.java) | 트리 순회                    | `트리`                          | 21/07/30                             |                                                              |      |
+| [1927](https://www.acmicpc.net/problem/1927)                 | [1927](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1927_%EC%B5%9C%EC%86%8C%ED%9E%99%20.java) | 최소힙                       | `힙`                            | 21/07/31                             |                                                              |      |
 
 
 
@@ -307,6 +307,32 @@
 
 
 </details>
+
+
+
+## Codility
+
+<details markdown="1">
+    <summary>Codility</summary>
+
+
+| 문제번호  | 풀이                                                         | 문제명                                                       | 분류                | 날짜     | memo | 🤯    |
+| --------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- | -------- | ---- | ---- |
+| Lesson1_1 | [Lesson1_1](https://github.com/jhk828/Algorithm/blob/master/Codility/Solution_Lesson1_1_BinaryGap.java) | [BinaryGap](https://app.codility.com/programmers/lessons/1-iterations/binary_gap/) | `Iterations`        | 210626   |      |      |
+| Lesson2_1 | [Lesson2_1](https://github.com/jhk828/Algorithm/blob/master/Codility/Solution_Lesson2_1_CyclicRotation.java) | [CyclicRotation](https://app.codility.com/programmers/lessons/2-arrays/cyclic_rotation/) |                     | 210626   |      |      |
+| Lesson2_2 | [Lesson2_2](https://github.com/jhk828/Algorithm/blob/master/Codility/Solution_Lesson2_2_OddOccurrencesInArray.java) | [OddOccurrencesInArray](https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/) | `Arrays`            | 210626   |      |      |
+| Lesson3_1 | Lesson3_1                                                    | [FrogJmp](https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/) | `Time Complexity`   | 21/08/01 |      |      |
+| Lesson3_2 | Lesson3_2                                                    | [PermMissingElem](https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/) |                     | 21/08/01 |      |      |
+| Lesson3_3 | Lesson3_3                                                    | [TapeEquilibrium](https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/) |                     | 21/08/01 |      |      |
+| Lesson4_1 | Lesson4_1                                                    | [FrogRiverOne](https://app.codility.com/programmers/lessons/4-counting_elements/frog_river_one/) | `Counting Elements` | 21/08/01 |      |      |
+| Lesson4_2 | Lesson4_2                                                    | [MaxCounters](https://app.codility.com/demo/results/training4KFWAC-75Z/#) |                     | 21/08/01 | fail | ☑    |
+| Lesson4_3 | Lesson4_3                                                    |                                                              |                     |          |      |      |
+| Lesson4_4 | Lesson4_4                                                    |                                                              |                     |          |      |      |
+|           |                                                              |                                                              |                     |          |      |      |
+
+</details>
+
+
 
 
 
