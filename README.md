@@ -127,6 +127,7 @@
 | [2110](https://www.acmicpc.net/problem/2110)                 | [2110](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2110_%EA%B3%B5%EC%9C%A0%EA%B8%B0%EC%84%A4%EC%B9%98%20.java) | 공유기 설치                  | `이진탐색`                      | 21/07/29                             | fail                                                         | ☑    |
 | [1991](https://www.acmicpc.net/problem/1991)                 | [1991](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1991_%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C.java) | 트리 순회                    | `트리`                          | 21/07/30                             |                                                              |      |
 | [1927](https://www.acmicpc.net/problem/1927)                 | [1927](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1927_%EC%B5%9C%EC%86%8C%ED%9E%99%20.java) | 최소힙                       | `힙`                            | 21/07/31                             |                                                              |      |
+| [1325](https://www.acmicpc.net/problem/1325)                 | 1325                                                         | 효율적인 해킹                | `bfs`                           | 21/08/04                             | 시간초과                                                     | ☑    |
 
 
 
