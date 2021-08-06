@@ -260,7 +260,7 @@
 | [LV2_방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683) | LV2_방금그곡                                                 | `문자열`                   | 21/07/22               |                                                              |      |
 | [LV2_파일정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) | LV2_파일정렬                                                 | `문자열`                   | 21/07/23               |                                                              |      |
 | [LV2_올바른괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | LV2_올바른괄호                                               | `stack`                    | 21/07/23               |                                                              |      |
-|                                                              |                                                              |                            |                        |                                                              |      |
+| [LV1_부족한금액계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612) | LV1_부족한금액계산하기                                       | `구현`                     | 21/08/06               |                                                              |      |
 
 </details>
 
