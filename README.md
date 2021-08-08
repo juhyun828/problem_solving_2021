@@ -128,7 +128,8 @@
 | [1991](https://www.acmicpc.net/problem/1991)                 | [1991](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1991_%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C.java) | 트리 순회                    | `트리`                          | 21/07/30                             |                                                              |      |
 | [1927](https://www.acmicpc.net/problem/1927)                 | [1927](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1927_%EC%B5%9C%EC%86%8C%ED%9E%99%20.java) | 최소힙                       | `힙`                            | 21/07/31                             |                                                              |      |
 | [1325](https://www.acmicpc.net/problem/1325)                 | 1325                                                         | 효율적인 해킹                | `bfs`                           | 21/08/04                             | 시간초과                                                     | ☑    |
-| [10282](https://www.acmicpc.net/problem/10282)               | 10282                                                        | 해킹                         | `dijkstra`                      | 21/08/07                             |                                                              |      |
+| [10282](https://www.acmicpc.net/problem/10282)               | [10282](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_10282_%ED%95%B4%ED%82%B9.java) | 해킹                         | `dijkstra`                      | 21/08/07                             |                                                              |      |
+| [5585](https://www.acmicpc.net/problem/5585)                 | 5585                                                         | 거스름돈                     | `그리기`                        | 21/08/08                             |                                                              |      |
 
 
 
