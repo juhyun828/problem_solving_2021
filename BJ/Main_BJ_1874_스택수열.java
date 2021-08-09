@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 // 210725
 
-public class Main_BJ_1874_스택순열 {
+public class Main_BJ_1874_스택수열 {
     public static void main(String[] args) throws Exception {
         //System.setIn(new FileInputStream("src/res/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
