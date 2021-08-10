@@ -132,6 +132,7 @@
 | [5585](https://www.acmicpc.net/problem/5585)                 | [5585](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_5585_%EA%B1%B0%EC%8A%A4%EB%A6%84%EB%8F%88.java) | 거스름돈                     | `그리디`                        | 21/08/08                             |                                                              |      |
 | [1236](https://www.acmicpc.net/problem/1236)                 | 1236                                                         | 성 지키기                    | `구현`                          | 21/08/09                             |                                                              |      |
 | [1439](https://www.acmicpc.net/problem/1439)                 | 1439                                                         | 뒤집기                       | `그리디`                        | 21/08/09                             |                                                              |      |
+| [2012](https://www.acmicpc.net/problem/2012)                 | 2012                                                         | 등수매기기                   | `그리디`                        | 21/08/10                             |                                                              |      |
 
 
 
