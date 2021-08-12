@@ -136,6 +136,7 @@
 | [1987](https://www.acmicpc.net/problem/1987)                 | [1987](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1987_%EC%95%8C%ED%8C%8C%EB%B2%B3.java) | 알파벳                       | `백트래킹`                      | 21/08/10                             |                                                              |      |
 | [1092](https://www.acmicpc.net/problem/1092)                 | 1092                                                         | 배                           | `그리디`                        | 21/08/11                             | `fail`                                                       |      |
 | [2212](https://www.acmicpc.net/problem/2212)                 | 2212                                                         | 센서                         | `그리디`                        | 21/08/11                             |                                                              |      |
+| [1461](https://www.acmicpc.net/problem/1461)                 | 1461                                                         | 도서관                       | `그리디`                        | 21/08/12                             |                                                              |      |
 
 
 
