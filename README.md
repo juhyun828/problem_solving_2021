@@ -137,6 +137,7 @@
 | [1092](https://www.acmicpc.net/problem/1092)                 | 1092                                                         | 배                           | `그리디`                        | 21/08/11                             | `fail`                                                       |      |
 | [2212](https://www.acmicpc.net/problem/2212)                 | 2212                                                         | 센서                         | `그리디`                        | 21/08/11                             |                                                              |      |
 | [1461](https://www.acmicpc.net/problem/1461)                 | 1461                                                         | 도서관                       | `그리디`                        | 21/08/12                             |                                                              |      |
+| [1781](https://www.acmicpc.net/problem/1781)                 | 1781                                                         | 컵라면                       | `그리디`                        | 21/08/13                             | `fail`                                                       |      |
 
 
 
