@@ -271,6 +271,7 @@
 | [LV2_올바른괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | LV2_올바른괄호                                               | `stack`                    | 21/07/23               |                                                              |      |
 | [LV1_부족한금액계산하기](https://programmers.co.kr/learn/courses/30/lessons/82612) | LV1_부족한금액계산하기                                       | `구현`                     | 21/08/06               |                                                              |      |
 | [LV3 가장먼노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | LV3 가장먼노드                                               | `graph` `BFS`              | 21/04/06<br />21/08/14 |                                                              |      |
+| [LV1_상호평가](https://programmers.co.kr/learn/courses/30/lessons/83201) | LV1_상호평가                                                 | `구현`                     | 21/08/18               | fail                                                         |      |
 
 </details>
 
