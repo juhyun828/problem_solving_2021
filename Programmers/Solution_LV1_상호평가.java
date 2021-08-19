@@ -1,5 +1,7 @@
 import java.util.*;
-class Solution_LV_상호평가_fail {
+// 210819
+
+class Solution_LV1_상호평가 {
     static int N;
     public String solution(int[][] scores) {
         String answer = "";
@@ -27,21 +29,20 @@ class Solution_LV_상호평가_fail {
     }
     
     static String grade(float avg){
-        if(avg>=90) return "A";
-        else if(avg >= 80 && avg < 90) return "B";
-        else if(avg >= 70 && avg < 80) return "C";
-        else if(avg>=50 && avg<70) return "D";
-        else return "F";
+        if(avg >= 90) return "A";
+        if(avg >= 80) return "B";
+        if(avg >= 70) return "C";
+        if(avg >= 50) return "D";
+        return "F";
     }
     
     static boolean checkOnlyMin(int i, int[][] scores) {
         int mine = scores[i][i];
         int min = 101;
         
-        // j열 min을 구해 같은 점수면 false
         for(int j=0; j<N; j++) {
             if(j==i) continue;
-            min = Math.min(min, scores[i][j]);
+            min = Math.min(min, scores[j][i]);
         }
         
         // 유일한 최소점이면 제거
@@ -53,12 +54,12 @@ class Solution_LV_상호평가_fail {
         int mine = scores[i][i];
         int max = -1;
         
-        // j열 max을 구해 같은 점수면 false
         for(int j=0; j<N; j++) {
             if(j==i) continue;
-            max = Math.max(max, scores[i][j]);
+            max = Math.max(max, scores[j][i]);
         }
         
+        // 유일한 최대점이면 제거
         if(mine > max) return true; 
         else return false;
     }
