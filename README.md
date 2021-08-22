@@ -138,6 +138,8 @@
 | [2606](https://www.acmicpc.net/problem/2606)                 | [2606-dfs](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2606_%EB%B0%94%EC%9D%B4%EB%9F%AC%EC%8A%A4_dfs.java)<br />2606-union | 바이러스                     | `dfs` `bfs` `UnionFind` `graph` | 21/07/01<br />21/08/16               |                                                              |      |
 | [1238](https://www.acmicpc.net/problem/1238)                 | 1238                                                         | 파티                         | `최단경로` `Dijkstra`           | 21/06/25<br />21/08/17               | [도착지 갔다가 돌아오기](https://jhk0307.tistory.com/377)<br />fail |      |
 | [12865](https://www.acmicpc.net/problem/12865)               | [12865](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_12865_%ED%8F%89%EB%B2%94%ED%95%9C%EB%B0%B0%EB%82%AD.java) | 평범한 배낭                  | `DP`                            | 21/06/18<br />21/08/20               |                                                              |      |
+| [2204](https://www.acmicpc.net/problem/2204)                 | 2204                                                         | 도비의 난독증 테스트         | `문자열`                        | 21/08/21                             |                                                              |      |
+| [15565](https://www.acmicpc.net/problem/15565)               | 15565                                                        | 귀여운 라이언                | `투포인터`                      | 21/08/21                             | fail, `dp`로 푸니 메모리 초과                                | ☑    |
 
 
 
