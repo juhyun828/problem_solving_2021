@@ -144,7 +144,7 @@
 | [7490](https://www.acmicpc.net/problem/7490)                 | [7490](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_7490_0%EB%A7%8C%EB%93%A4%EA%B8%B0.java) | 0만들기                      | `문자열` `백트래킹`                    | 21/07/27<br />21/08/24               |                                                              |      |
 | [1343](1343)                                                 | [1343](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1343_%ED%8F%B4%EB%A6%AC%EC%98%A4%EB%AF%B8%EB%85%B8.java) | 폴리오미노                   | `문자열` `그리디`                      | 21/08/24                             | `replaceFirst()`                                             |      |
 | [18809](https://www.acmicpc.net/problem/18809)               | 18809                                                        | Gaaaaaaaaaarden              | `브루투포스` `시뮬레이션` `조합` `bfs` | 21/08/25                             | 빨강, 초록이 같은 초에 퍼지는지 체크하기 위해 `timeMap`을 사용했지만 큐 두개 사용해서도 풀어보기 | ☑    |
-| [15486](https://www.acmicpc.net/problem/15486)               | 15486                                                        | 퇴사2                        | `dp`                                   |                                      |                                                              |      |
+| [15486](https://www.acmicpc.net/problem/15486)               | 15486                                                        | 퇴사2                        | `dp`                                   | 21/08/25                             |                                                              | ☑    |
 
 
 
@@ -279,6 +279,7 @@
 | [LV3_가장먼노드](https://programmers.co.kr/learn/courses/30/lessons/49189) | [LV3_가장먼노드](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV3_%EA%B0%80%EC%9E%A5%EB%A8%BC%EB%85%B8%EB%93%9C_2.java) | `graph` `BFS`              | 21/04/06<br />21/08/14               |                                                              |      |
 | [LV1_상호평가](https://programmers.co.kr/learn/courses/30/lessons/83201) | [LV1_상호평가](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV1_%EC%83%81%ED%98%B8%ED%8F%89%EA%B0%80.java) | `구현`                     | 21/08/18<br />21/08/19               |                                                              |      |
 | [LV2_순위검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [LV2_순위검색](https://github.com/jhk828/Algorithm/blob/e37ed9d5e440c764251b10c685ff432b98fdd34e/Programmers/Solution_LV2_%EC%88%9C%EC%9C%84%EA%B2%80%EC%83%89.java) | `조합` `dfs` `이분탐색`    | 21/05/13<br />21/07/07<br />21/08/21 | [시간초과 해결](https://jhk0307.tistory.com/370)<br />`Collections.binarySearch()`쓰니까 왜 안되는거지 |      |
+| [LV1_직업군추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325) | LV1_직업군추천하기                                           | `해시` `문자열`            | 21/08/25                             | `LinkedHashMap` : 입력 순서 o 해시                           |      |
 
 </details>
 
