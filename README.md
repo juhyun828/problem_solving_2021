@@ -4,8 +4,8 @@
 
 > - since 210119~
 >- 1일 1 commit  목표
-> - 문제 사이트별로, 날짜 순으로 기록합니다.
-> - README에 기록하지 않으며 풀던 문제들은 복습하며 추가 중 입니다.
+> - 문제 사이트별로, 날짜 순으로 기록
+> - 아무리!! 바빠도 풀었던 문제 코드 복습하고 흔적 commit하기!!
 
 
 
@@ -49,7 +49,6 @@
 | [1755](https://www.acmicpc.net/problem/1755)                 | [1755](https://github.com/jhk828/Algorithm/blob/90b63e7355963b462f507da19ba4590461f567cc/BJ/Main_BJ_1755_%EC%88%AB%EC%9E%90%EB%86%80%EC%9D%B4.java) | 숫자놀이                     | `Sort`                                 | 21/03/29                             |                                                              |      |
 | [16973](https://www.acmicpc.net/problem/16973)               | [16973](https://github.com/jhk828/Algorithm/blob/063404b757006639199e8b74ba660a16cd6cb1ac/BJ/Main_BJ_16973_%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%ED%83%88%EC%B6%9C.java) | 직사각형 탈출                | `BFS`                                  | 21/03/31                             | [직사각형 모든 넓이 체크-> 시간초과](https://jhk0307.tistory.com/354) |      |
 | [12907](https://www.acmicpc.net/problem/12907)               | [12907](https://github.com/jhk828/Algorithm/blob/5c349daf755aae37e5b1aa4ed2107991bca3f1c2/BJ/Main_BJ_12907_%EB%8F%99%EB%AC%BC%EC%9B%90.java) | 동물원                       |                                        | 21/04/01                             |                                                              | ☑    |
-| [18352](https://www.acmicpc.net/problem/18352)               | [18352](https://github.com/jhk828/Algorithm/blob/2f07fddd98697807e3584bf987a14926c2c1cc82/BJ/Main_BJ_18352_%ED%8A%B9%EC%A0%95%EA%B1%B0%EB%A6%AC%EC%9D%98%EB%8F%84%EC%8B%9C%EC%B0%BE%EA%B8%B0.java) | 특정거리의도시찾기           | `BFS`                                  | 21/04/05                             | 인접리스트 BFS                                               | ☑    |
 | [18405](https://www.acmicpc.net/problem/18405)               | [18405](https://github.com/jhk828/Algorithm/blob/2f07fddd98697807e3584bf987a14926c2c1cc82/BJ/Main_BJ_18405_%EA%B2%BD%EC%9F%81%EC%A0%81%EC%A0%84%EC%97%BC.java) | 경쟁적전염                   | `BFS`                                  | 21/04/05                             | BFS - 크기만큼 돌리기                                        | ☑    |
 | [17779](https://www.acmicpc.net/problem/17779)               | [17779](https://github.com/jhk828/Algorithm/blob/e97cba8903d44ca03683735b3fd27b3192ff5de3/BJ/Main_BJ_17779_%EA%B2%8C%EB%A6%AC%EB%A7%A8%EB%8D%94%EB%A7%812.java) | 게리멘더링2                  | `시뮬레이션` `BruteForce`              | 21/04/11                             | 배열 최대최소값: 정렬후첫/마지막원소                         | ☑    |
 | [2564](https://www.acmicpc.net/problem/2564)                 | [2564](https://github.com/jhk828/Algorithm/blob/f5db1dbe89ffe4cfa3196ec8f41d0c06f4cbc53e/BJ/Main_BJ_2564_%EA%B2%BD%EB%B9%84%EC%9B%90.java) | 경비원                       |                                        | 21/04/13                             | 수식 구현                                                    |      |
@@ -147,6 +146,8 @@
 | [15486](https://www.acmicpc.net/problem/15486)               | [15486](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_15486_%ED%87%B4%EC%82%AC2.java) | 퇴사2                        | `dp`                                   | 21/08/25                             |                                                              | ☑    |
 | [1012](https://www.acmicpc.net/problem/1012)                 | 1012                                                         | 유기농배추                   | `bfs` `dfs`                            | 21/08/25                             |                                                              |      |
 | [2217](https://www.acmicpc.net/problem/2217)                 | 2217                                                         | 로프                         | `그리디`                               |                                      | 21/08/25                                                     |      |
+| [18352](https://www.acmicpc.net/problem/18352)               | [18352](https://github.com/jhk828/Algorithm/blob/2f07fddd98697807e3584bf987a14926c2c1cc82/BJ/Main_BJ_18352_%ED%8A%B9%EC%A0%95%EA%B1%B0%EB%A6%AC%EC%9D%98%EB%8F%84%EC%8B%9C%EC%B0%BE%EA%B8%B0.java) | 특정거리의도시찾기           | `BFS` `dikstra`                        | 21/04/05<br />21/08/26               |                                                              |      |
+| [1774](https://www.acmicpc.net/problem/1774)                 | 1774                                                         | 우주신과의 교감              | `kruskal` `union`                      | 21/08/26                             | 실수형 반올림 방법!!                                         | ☑    |
 
 
 

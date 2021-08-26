@@ -1,74 +1,66 @@
 import java.io.*;
 import java.util.*;
-// 210405
+// 210826
 
 public class Main_BJ_18352_특정거리의도시찾기 {
     static int N, M, K, X;
-    static ArrayList<Integer>[] adjList;
-    static StringBuilder sb;
-    static boolean flag = false;
-    static int[] v;
+    static ArrayList<Integer>[] adj;
     public static void main(String[] args) throws Exception {
-        // System.setIn(new FileInputStream("src/res/input_BJ_18352_특정거리의도시찾기.txt"));
+        //System.setIn(new FileInputStream("src/res/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
-        N = stoi(st.nextToken()); // 정점 개수
-        M = stoi(st.nextToken()); // 간선 개수
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+        N = stoi(st.nextToken()); // 정점
+        M = stoi(st.nextToken()); // 간선
         K = stoi(st.nextToken()); // 거리 정보
         X = stoi(st.nextToken()); // 출발 도시 번호
-		
-        adjList = new ArrayList[N+1];
-        v = new int[N+1];
-        sb = new StringBuilder();
-
-        for(int i=0; i<=N; i++) {
-            adjList[i] = new ArrayList<Integer>();
-        }
-
-        int from, to;
-        // 간선 정보
-        for(int i=0; i<M; i++) {
-            st = new StringTokenizer(br.readLine(), " ");
-            from = stoi(st.nextToken());
-            to = stoi(st.nextToken());
-            adjList[from].add(to);
-        }
-
-        bfs(X);
-
-        boolean flag = false;
+        adj = new ArrayList[N+1];
         for(int i=1; i<=N; i++) {
-            if(v[i]==K) {
-                flag=true;
-                sb.append(i + "\n");
-            }
+            adj[i] = new ArrayList<Integer>();
         }
-        if(flag) System.out.println(sb.toString());
-        else System.out.println(-1);
+
+        for(int i=0; i<M; i++) { // 간선 정보
+            st = new StringTokenizer(br.readLine(), " ");
+            int from = stoi(st.nextToken());
+            int to = stoi(st.nextToken());
+            adj[from].add(to); // 단방향
+        }
+
+        int cnt = dijkstra(X);
+        if(cnt == 0) System.out.println(-1);
 
         br.close();
     }
 
-    static void bfs(int start) {
-        Queue<Integer> q = new ArrayDeque<>();
-        Arrays.fill(v, -1);
-
+    static int dijkstra(int start) {
+        int cnt = 0;
+        int[] dist = new int[N+1];
+        Arrays.fill(dist, Integer.MAX_VALUE);
+        Queue<Integer> q = new ArrayDeque<Integer>();
+        // 시작점
+        dist[start] = 0;
         q.offer(start);
-        v[start]=0;
 
-        Integer cur;
         while(!q.isEmpty()) {
-            cur = q.poll();
-            for(int i=0; i<adjList[cur].size(); i++) {
-                int next = adjList[cur].get(i);
-                if(v[next]!=-1) continue;
-                v[next] = v[cur]+1;
-                q.offer(next);
+            int cur = q.poll();
+
+            for(int next: adj[cur]) {
+                if(dist[next] > dist[cur] + 1) {
+                    dist[next] = dist[cur] + 1;
+                    q.offer(next);
+                }
             }
         }
 
+        for(int i=1; i<=N; i++) {
+            if(dist[i] == K) {
+                ++cnt;
+                System.out.println(i);
+            }
+        }
+        return cnt;
     }
+
     static int stoi(String str) {
         return Integer.parseInt(str);
     }
