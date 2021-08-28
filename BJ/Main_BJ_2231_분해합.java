@@ -1,41 +1,41 @@
 import java.io.*;
 import java.util.*;
-// 210211
+// 210828
 
 public class Main_BJ_2231_분해합 {
-	
-	static int N;
-	
-	static int func(int num) {
-		
-		String str = Integer.toString(num);
-		int res = 0;
-		
-		for(int i=0; i<str.length(); i++){
-			res += str.charAt(i) - '0';
-		}
-		
-		return res+num;
-		
- 	}
-	
-	public static void main(String[] args) throws Exception {
+    static int min;
+    public static void main(String[] args) throws Exception {
+        //System.setIn(new FileInputStream("src/res/input.txt"));
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		N = Integer.parseInt(br.readLine());
-	
-		int input = 1;
-		
-		while(input<N) {
-			int output = func(input);
-			
-			if (output==N) break;
-			else ++input;
-		}
-		
-		// 분해합이 없는 경우 0을 출력한다.
-		System.out.println((input==N) ? 0 : input);
-		
-		br.close();
-	}
+        int N = stoi(br.readLine());
+
+        for(int i=1; i<=N; i++) {
+            int res = cal(i);
+            if(res==N) {
+                System.out.println(i);
+                System.exit(0);
+            }
+        }
+
+        System.out.println(0);
+
+        br.close();
+    }
+    
+    static int cal(int num) {
+        String str = Integer.toString(num);
+        int sum = 0;
+
+        for(char c: str.toCharArray()) {
+            sum += c - '0';
+        }
+
+        sum += num;
+        return sum;
+    }
+
+    static int stoi(String str) {
+        return Integer.parseInt(str);
+    }
 }
