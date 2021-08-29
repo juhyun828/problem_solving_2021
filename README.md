@@ -289,6 +289,7 @@
 | [LV1_상호평가](https://programmers.co.kr/learn/courses/30/lessons/83201) | [LV1_상호평가](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV1_%EC%83%81%ED%98%B8%ED%8F%89%EA%B0%80.java) | `구현`                     | 21/08/18<br />21/08/19               |                                                              |      |
 | [LV2_순위검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [LV2_순위검색](https://github.com/jhk828/Algorithm/blob/e37ed9d5e440c764251b10c685ff432b98fdd34e/Programmers/Solution_LV2_%EC%88%9C%EC%9C%84%EA%B2%80%EC%83%89.java) | `조합` `dfs` `이분탐색`    | 21/05/13<br />21/07/07<br />21/08/21 | [시간초과 해결](https://jhk0307.tistory.com/370)<br />`Collections.binarySearch()`쓰니까 왜 안되는거지 |      |
 | [LV1_직업군추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325) | LV1_직업군추천하기                                           | `해시` `문자열`            | 21/08/25                             | `LinkedHashMap` : 입력 순서 o 해시                           |      |
+| [LV1_다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | LV1_다트게임                                                 | `문자열`                   | 21/08/29                             |                                                              |      |
 
 </details>
 
