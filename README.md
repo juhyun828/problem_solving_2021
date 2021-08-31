@@ -154,6 +154,7 @@
 | [2231](https://www.acmicpc.net/problem/2231)                 | [2231](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2231_%EB%B6%84%ED%95%B4%ED%95%A9.java) | 분해합                       | `브루트포스`                           | 21/08/28                             |                                                              |      |
 | [5597](https://www.acmicpc.net/problem/5597)                 | [5597](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_5597_%EA%B3%BC%EC%A0%9C%EC%95%88%EB%82%B4%EC%8B%A0%EB%B6%84.java) | 과제 안 내신 분..?           | `구현`                                 | 21/08/28                             |                                                              |      |
 | [1758](https://www.acmicpc.net/problem/1758)                 | 1758                                                         | 알바생 강호                  | `그리디`                               | 21/08/30                             |                                                              |      |
+| [20546](https://www.acmicpc.net/problem/20546)               | 20546                                                        | 기적의매매법                 | `구현`                                 | 21/08/31                             |                                                              |      |
 
 
 
@@ -290,7 +291,7 @@
 | [LV2_순위검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [LV2_순위검색](https://github.com/jhk828/Algorithm/blob/e37ed9d5e440c764251b10c685ff432b98fdd34e/Programmers/Solution_LV2_%EC%88%9C%EC%9C%84%EA%B2%80%EC%83%89.java) | `조합` `dfs` `이분탐색`    | 21/05/13<br />21/07/07<br />21/08/21 | [시간초과 해결](https://jhk0307.tistory.com/370)<br />`Collections.binarySearch()`쓰니까 왜 안되는거지 |      |
 | [LV1_직업군추천하기](https://programmers.co.kr/learn/courses/30/lessons/84325) | [LV1_직업군추천하기](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV1_%EC%A7%81%EC%97%85%EA%B5%B0%EC%B6%94%EC%B2%9C%ED%95%98%EA%B8%B0.java) | `해시` `문자열`            | 21/08/25                             | `LinkedHashMap` : 입력 순서 o 해시                           |      |
 | [LV1_다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | [LV1_다트게임](https://github.com/jhk828/Algorithm/blob/a58ceeb2d55041f5af256fe768ecc280acf6da4a/BJ/Solution_LV1_%EB%8B%A4%ED%8A%B8%EA%B2%8C%EC%9E%84.java) | `문자열`                   | 21/08/29                             |                                                              |      |
-| [LV3_블록이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063) | LV3_블록이동하기                                             | `시뮬레이션` `구현`        | 21/08/30                             | fail                                                         | ☑    |
+| [LV3_블록이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063) | LV3_블록이동하기                                             | `시뮬레이션` `구현`        | 21/08/31                             | 방문체크 / 두 칸 로봇 회전                                   | ☑    |
 
 </details>
 
