@@ -8,13 +8,13 @@ class Solution_LV2_후보키 {
 
     public int solution(String[][] relation) {
         int answer = 0;
-        N = relation[0].length; //4 0~3 
+        N = relation[0].length; 
 
         combList = new ArrayList<String>();
         candidates = new ArrayList<String>();
         v = new boolean[N];
 
-        combination(0,  ""); // 0, 1, 2, 01, 012, ,,,
+        combination(0,  ""); 
         
         // Collections.sort(combList, new Comparator<String>(){
         //     @Override
@@ -24,7 +24,7 @@ class Solution_LV2_후보키 {
         // });
         
         for(String str: combList) {
-            if(checkUnig(str, relation) && checkMin(str)) {
+            if(checkUniq(str, relation) && checkMin(str)) {
                 candidates.add(str);
             }
         }
@@ -62,7 +62,7 @@ class Solution_LV2_후보키 {
     }
 
     // 유일성 검사
-    static boolean checkUnig(String str, String[][] relation) { //  013
+    static boolean checkUniq(String str, String[][] relation) { //  013
         String[] arr =  str.split(""); // 013
         Set<String> set = new HashSet<String>();
         for(String[] r: relation) {
