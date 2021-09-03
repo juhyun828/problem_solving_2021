@@ -156,6 +156,7 @@
 | [5597](https://www.acmicpc.net/problem/5597)                 | [5597](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_5597_%EA%B3%BC%EC%A0%9C%EC%95%88%EB%82%B4%EC%8B%A0%EB%B6%84.java) | 과제 안 내신 분..?           | `구현`                                 | 21/08/28                             |                                                              |      |
 | [1758](https://www.acmicpc.net/problem/1758)                 | [1758](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_1758_%EC%95%8C%EB%B0%94%EC%83%9D%EA%B0%95%ED%98%B8.java) | 알바생 강호                  | `그리디`                               | 21/08/30                             |                                                              |      |
 | [20546](https://www.acmicpc.net/problem/20546)               | [20546](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_20546_%EA%B8%B0%EC%A0%81%EC%9D%98%EB%A7%A4%EB%A7%A4%EB%B2%95.java) | 기적의매매법                 | `구현`                                 | 21/08/31                             |                                                              |      |
+| [11508](https://www.acmicpc.net/problem/11508)               | 11508                                                        | 2+1 세일                     | `그리디`                               | 21/09/03                             |                                                              |      |
 
 
 
@@ -295,7 +296,7 @@
 | [LV1_다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | [LV1_다트게임](https://github.com/jhk828/Algorithm/blob/a58ceeb2d55041f5af256fe768ecc280acf6da4a/BJ/Solution_LV1_%EB%8B%A4%ED%8A%B8%EA%B2%8C%EC%9E%84.java) | `문자열`                       | 21/08/29                             |                                                              |      |
 | [LV3_블록이동하기](https://programmers.co.kr/learn/courses/30/lessons/60063) | [LV3_블록이동하기](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV3_%EB%B8%94%EB%A1%9D%EC%9D%B4%EB%8F%99%ED%95%98%EA%B8%B0.java) | `시뮬레이션` `구현`            | 21/08/31                             | 방문체크 / 두 칸 로봇 회전                                   | ☑    |
 | [LV2_후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | [LV2_후보키](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%ED%9B%84%EB%B3%B4%ED%82%A4.java) | `문자열`<br />`dfs` `완전탐색` | 21/07/17<br />21/09/01               | 최소성 검사는 key의 한 글자씩                                | ☑    |
-| [LV2_모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | LV2_모음사전                                                 | `순열`                         | 21/09/02                             | `list.indexOf(Object)`                                       |      |
+| [LV2_모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | [LV2_모음사전](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EB%AA%A8%EC%9D%8C%EC%82%AC%EC%A0%84.java) | `순열`                         | 21/09/02                             | `list.indexOf(Object)`                                       |      |
 
 </details>
 
