@@ -158,6 +158,7 @@
 | [20546](https://www.acmicpc.net/problem/20546)               | [20546](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_20546_%EA%B8%B0%EC%A0%81%EC%9D%98%EB%A7%A4%EB%A7%A4%EB%B2%95.java) | 기적의매매법                 | `구현`                                 | 21/08/31                             |                                                              |      |
 | [11508](https://www.acmicpc.net/problem/11508)               | 11508                                                        | 2+1 세일                     | `그리디`                               | 21/09/03                             |                                                              |      |
 | [20300](https://www.acmicpc.net/problem/20300)               | 20300                                                        | 서강근육맨                   | `그리디`                               | 21/09/04                             | 정수형 범위, 짝/홀수 구분 주의                               |      |
+| [14467](https://www.acmicpc.net/problem/14467)               | 14467                                                        | 소가 길을 건너간 이유 1      | `구현`                                 | 21/09/06                             |                                                              |      |
 
 
 

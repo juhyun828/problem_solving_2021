@@ -1,7 +1,7 @@
 import java.util.*;
 //210905
 
-class Solution_LV2_n진수 게임 {
+class Solution_LV2_n진수게임 {
     static String str;
     static char[] nums = new char[] {'0', '1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G'};
     public String solution(int n, int t, int m, int p) {
