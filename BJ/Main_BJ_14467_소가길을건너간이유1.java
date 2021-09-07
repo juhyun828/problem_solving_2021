@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-// 210905
+// 210906
 
 public class Main_BJ_14467_소가길을건너간이유1 {
     public static void main(String[] args) throws Exception {
