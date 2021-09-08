@@ -301,6 +301,7 @@
 | [LV2_후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | [LV2_후보키](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%ED%9B%84%EB%B3%B4%ED%82%A4.java) | `문자열`<br />`dfs` `완전탐색` | 21/07/17<br />21/09/01               | 최소성 검사는 key의 한 글자씩                                | ☑    |
 | [LV2_모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | [LV2_모음사전](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EB%AA%A8%EC%9D%8C%EC%82%AC%EC%A0%84.java) | `순열`                         | 21/09/02                             | `list.indexOf(Object)`                                       |      |
 | [LV2_n진수게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | LV2_n진수게임                                                | `구현` `스택`                  | 21/09/05                             |                                                              |      |
+| [LV3_풍선터뜨리기](https://programmers.co.kr/learn/courses/30/lessons/68646) | LV3_풍선터뜨리기                                             | `구현`                         | 21/09/08                             |                                                              |      |
 
 </details>
 
