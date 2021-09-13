@@ -163,6 +163,8 @@
 | [9934](https://www.acmicpc.net/problem/9934)                 | [9934](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_9934_%EC%99%84%EC%A0%84%EC%9D%B4%EC%A7%84%ED%8A%B8%EB%A6%AC.java) | 완전 이진 트리               | `구현` `트리` `dfs`                    | 21/09/09                             | 중위 순회의 특징                                             |      |
 | [16234](https://www.acmicpc.net/problem/16234)               | [16234](https://github.com/jhk828/Algorithm/blob/4f42c216c2e6d244c3364361682e2970bd847743/BJ/Main_BJ_16234_%EC%9D%B8%EA%B5%AC%EC%9D%B4%EB%8F%99.java) | 인구 이동                    | `bfs` `시뮬레이션`                     | 21/06/06<br />21/09/10               | `map` 안변하게 주의, `newMap`선언                            |      |
 | [2629](https://www.acmicpc.net/problem/2629)                 | [2629](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2629_%EC%96%91%ED%8C%94%EC%A0%80%EC%9A%B8.java) | 양팔저울                     | `DP`                                   | 21/06/25<br />21/09/10               | [배낭 문제 응용](https://jhk0307.tistory.com/378)            |      |
+| [5639](https://www.acmicpc.net/problem/5639)                 | 5639                                                         | 이진 검색 트리               | `트리`                                 | 21/09/13                             |                                                              |      |
+| [16918](https://www.acmicpc.net/problem/16918)               | 16918                                                        | 봄버맨                       | `시뮬레이션` `그래프`                  | 21/09/13                             | 대체 폭발 터지는거랑 새 폭발 설치하는거랑 둘 중 뭐가 우선인거임.. |      |
 
 
 
