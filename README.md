@@ -165,6 +165,7 @@
 | [5639](https://www.acmicpc.net/problem/5639)                 | 5639                                                         | 이진 검색 트리               | `트리`                                 | 21/09/13                             |                                                              |      |
 | [2644](https://www.acmicpc.net/problem/2644)                 | [2644](https://github.com/jhk828/Algorithm/blob/a99077fbc197109e0f5b2fa5390c1463cb57301d/BJ/Main_BJ_2644_%EC%B4%8C%EC%88%98%EA%B3%84%EC%82%B0.java) | 촌수계산                     | `BFS`                                  | 21/03/26<br />21/09/14               | q의 size만큼 poll 하여 자식 노드들 탐색                      | ☑    |
 | [16918](https://www.acmicpc.net/problem/16918)               | 16918                                                        | 봄버맨                       | `시뮬레이션` `그래프`                  | 21/09/14                             | [남은 칸에 1초부터 폭탄을 설치하기 시작하면 2초에 다 설치된거다.](https://jhk0307.tistory.com/385) |      |
+| [1068](https://www.acmicpc.net/problem/1068)                 | 1068                                                         | 트리                         | `트리` `자료구조` `dfs`                | 21/09/15                             |                                                              |      |
 
 
 
