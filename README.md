@@ -308,6 +308,7 @@
 | [LV2_모음사전](https://programmers.co.kr/learn/courses/30/lessons/84512) | [LV2_모음사전](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EB%AA%A8%EC%9D%8C%EC%82%AC%EC%A0%84.java) | `순열`                         | 21/09/02                             | `list.indexOf(Object)`                                       |      |
 | [LV2_n진수게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | LV2_n진수게임                                                | `구현` `스택`                  | 21/09/05                             |                                                              |      |
 | [LV3_풍선터뜨리기](https://programmers.co.kr/learn/courses/30/lessons/68646) | LV3_풍선터뜨리기                                             | `구현`                         | 21/09/08                             |                                                              |      |
+| [LV2_빛의순환사이클](https://programmers.co.kr/learn/courses/30/lessons/86052?language=java) | LV2_빛의순환사이클                                           | `시뮬레이션` `배열`            | 21/09/15                             | [어떤 경우 순환인지..](https://jhk0307.tistory.com/386)      | ☑    |
 
 </details>
 
