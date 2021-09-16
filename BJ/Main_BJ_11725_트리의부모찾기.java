@@ -1,43 +1,42 @@
 import java.io.*;
 import java.util.*;
-// 210909
+// 210916
 
 public class Main_BJ_11725_트리의부모찾기 {
-    static int N;
-    static ArrayList<Integer>[] list;
+    static int N, root;
+    static ArrayList<Integer>[] adj;
     static int[] parents;
     static boolean[] v;
     public static void main(String[] args) throws Exception {
         //System.setIn(new FileInputStream("src/res/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         N = stoi(br.readLine());
-        
-        // 인접 리스트
-        list = new ArrayList[N+1];
-        for(int i=1; i<=N; i++) {
-            list[i] = new ArrayList<Integer>();
-        }
+        root = 1;
+        adj = new ArrayList[N+1];
         parents = new int[N+1];
-
-        // 연결 설정
-        StringTokenizer st;
-        for(int i=0; i<N-1; i++) {
-            st = new StringTokenizer(br.readLine(), " ");
-            int a = stoi(st.nextToken());
-            int b = stoi(st.nextToken());
-            list[a].add(b);
-            list[b].add(a);
-        }
-
         v = new boolean[N+1];
+
         for(int i=1; i<=N; i++) {
-            if(!v[i]) {
-                //dfs(i);
-                bfs(i);
-            }
+            adj[i] = new ArrayList<Integer>();
         }
-        
-        // 1이 최상단 루트
+
+        for(int i=0; i<N-1; i++) { // 정점이 N개일 때 간선 N-1 정보가 모두 주어짐
+            StringTokenizer st = new StringTokenizer(br.readLine(), " ");
+            int u = stoi(st.nextToken());
+            int v = stoi(st.nextToken());
+            adj[u].add(v);
+            adj[v].add(u);
+        }
+
+        // root 노드 부터 탐색
+        bfs(root);
+        //dfs(root);
+
+        for(int i=2; i<=N; i++) {
+            if(!v[i]) bfs(i);
+            //if(!v[i]) dfs(i);
+        }
+
         for(int i=2; i<=N; i++) {
             System.out.println(parents[i]);
         }
@@ -45,31 +44,30 @@ public class Main_BJ_11725_트리의부모찾기 {
         br.close();
     }
 
-    static void bfs(int start) {
-        // 시작점
-        v[start] = true;
+    static void bfs(int start) { // root부터 시작
         Queue<Integer> q = new ArrayDeque<Integer>();
         q.offer(start);
+        v[start] = true;
 
         while (!q.isEmpty()) {
             int cur = q.poll();
-            for(int next: list[cur]) {
-                if(!v[next]) {
-                    v[next] = true;
+
+            for(int next: adj[cur]) {
+                if(!v[next]) { // root부터 탐색하기 때문에 아직 방문 안한 노드가 자식 노드다.
                     parents[next] = cur;
+                    v[next] = true;
                     q.offer(next);
                 }
             }
         }
     }
 
-    static void dfs(int cur) {
-        if(v[cur]) return;
-        v[cur] = true;
+    static void dfs(int start) {
+        v[start] = true;
 
-        for(int next: list[cur]) {
+        for(int next: adj[start]) {
             if(!v[next]) {
-                parents[next] = cur;
+                parents[next] = start;
                 dfs(next);
             }
         }
