@@ -1,13 +1,14 @@
 import java.io.*;
 import java.util.*;
-// 210916
+// 210918
 
 public class Main_BJ_1325_효율적인해킹 {
     static int N, M;
-    static ArrayList<Integer>[] adj;
-    static int[] possible;
+    // static ArrayList<Integer>[] adj;
+    // 2차원 배열로 구현 시 메모리 낭비 발생, ArrayList로 필요한 공간만 사용하여 시간 초과 해결
+    static ArrayList<ArrayList<Integer>> adj;
     static boolean[] v;
-
+    static int[] possible;
     public static void main(String[] args) throws Exception {
         //System.setIn(new FileInputStream("src/res/input.txt"));
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -15,33 +16,29 @@ public class Main_BJ_1325_효율적인해킹 {
         N = stoi(st.nextToken());
         M = stoi(st.nextToken());
         possible = new int[N+1];
-        int max = 0;
         v = new boolean[N+1];
-        adj = new ArrayList[N+1];
-        for(int i=1; i<=N; i++) {
-            adj[i] = new ArrayList<Integer>();
+        adj = new ArrayList<ArrayList<Integer>>();
+        for(int i=0; i<=N; i++) {
+            adj.add(new ArrayList<Integer>());
         }
 
         for(int i=0; i<M; i++) {
             st = new StringTokenizer(br.readLine(), " ");
             int to = stoi(st.nextToken());
             int from = stoi(st.nextToken());
-            adj[from].add(to);
+            adj.get(from).add(to);
         }
 
-        // bfs
+        int max = 0;
         for(int i=1; i<=N; i++) {
             int cnt = bfs(i);
             max = Math.max(max, cnt);
             possible[i] = cnt;
         }
 
-        // dfs -> 데이터 추가되고 재채점 되면서 dfs로 푼건 시간 초과 난다. 
-//        for(int i=1; i<=N; i++) {
-//            v = new boolean[N+1];
-//            dfs(i, i);
-//            max = Math.max(max, possible[i]);
-//        }
+        for(int i=1; i<=N; i++) {
+            max = Math.max(max, possible[i]);
+        }
 
         StringBuilder sb = new StringBuilder();
         for(int i=1; i<=N; i++) {
@@ -61,10 +58,9 @@ public class Main_BJ_1325_효율적인해킹 {
 
         while(!q.isEmpty()) {
             int cur = q.poll();
-            // 순환을 이루는 경우, 큐에 들어간 이후에 방문 처리 될 수 있다.
             if(!v[cur]) continue;
 
-            for(int next: adj[cur]) {
+            for(int next: adj.get(cur)) {
                 if(!v[next]) {
                     v[next] = true;
                     ++cnt;
@@ -73,17 +69,6 @@ public class Main_BJ_1325_효율적인해킹 {
             }
         }
         return cnt;
-    }
-
-    static void dfs(int start, int now) {
-        possible[start]++;
-        v[now] = true;
-
-        for(int next: adj[now]) {
-            if(!v[next]) {
-                dfs(start, next);
-            }
-        }
     }
 
     static int stoi(String str) {
