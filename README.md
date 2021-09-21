@@ -173,7 +173,7 @@
 | [13549](https://www.acmicpc.net/problem/13549)               | 13546                                                        | 숨바꼭질3                    | `bfs` `dikstra` `그래프`               | 21/09/20                             |                                                              |      |
 | [2578](https://www.acmicpc.net/problem/2578)                 | 2578                                                         | 빙고                         | `구현`                                 | 21/09/20                             |                                                              |      |
 | [14675](https://www.acmicpc.net/problem/14675)               | 14675                                                        | 단절점과 단절선              | `그래프` `트리`                        | 21/09/20                             |                                                              |      |
-|                                                              |                                                              |                              |                                        |                                      |                                                              |      |
+| [1931](https://www.acmicpc.net/problem/1931)                 | 1931                                                         | 회의실 배정                  | `그리디`                               | 21/09/21                             |                                                              |      |
 
 
 
