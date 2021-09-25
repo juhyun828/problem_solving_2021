@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-// 210924
+// 210925
 
 public class Main_BJ_21610_마법사상어와비바라기 {
     static int N, M;
@@ -9,7 +9,7 @@ public class Main_BJ_21610_마법사상어와비바라기 {
     static int[] dr = new int[] {0, -1,-1,-1, 0, 1, 1, 1};
     static int[] dc = new int[] {-1, -1, 0, 1, 1, 1, 0, -1 };
     static int[] acrossDr = new int[] {-1, -1, 1, 1}; // 대각선 개수 셀 때
-    static int[] acrossDc = new int[] {-1, -1, 1, 1};
+    static int[] acrossDc = new int[] {-1, 1, -1, 1};
 
     public static void main(String[] args) throws Exception {
         //System.setIn(new FileInputStream("src/res/input.txt"));
@@ -40,11 +40,11 @@ public class Main_BJ_21610_마법사상어와비바라기 {
             int di = stoi(st.nextToken());
             int si = stoi(st.nextToken());
 
-            // // 1+2, 구름 칸 이동 + 모든 구름 칸 물의 양 +1
+             // 1+2, 구름 칸 이동 + 모든 구름 칸 물의 양 +1
             cloud = moveCloud(di, si);
-            
+
             // 3. 구름이 모두 사라진다.
-            
+
             // 4. 2에서 물이 증가한 칸에 물복사버그 마법 시전
             map = copyWaterMagic();
 
@@ -124,7 +124,7 @@ public class Main_BJ_21610_마법사상어와비바라기 {
     }
 
     static boolean valid(int nr, int nc) {
-        if(nr<1 || nr>N || nc<1 || nc> N) return false;
+        if(nr<1 || nr>N || nc<1 || nc>N) return false;
         else return true;
     }
 
@@ -135,13 +135,13 @@ public class Main_BJ_21610_마법사상어와비바라기 {
             for(int j=1; j<=N; j++) {
                 if(!cloud[i][j] && map[i][j]>=2) {
                     newCloud[i][j] = true;
+                    map[i][j] -= 2;
                 }
             }
         }
 
         return newCloud;
     }
-
 
     static int stoi(String str) {
         return Integer.parseInt(str);
