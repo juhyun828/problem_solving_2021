@@ -176,6 +176,7 @@
 | [2636](https://www.acmicpc.net/problem/2636)                 | [2636](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2636_%EC%B9%98%EC%A6%88.java) | 치즈                         | `bfs` `시뮬레이션`                     | 21/03/24<br />21/09/22               | [공기와 만나는 치즈가 녹음<br />-> 공기부터 탐색](https://jhk0307.tistory.com/350) |      |
 | [17836](https://www.acmicpc.net/problem/17836)               | 17836                                                        | 공주님을 구해라!             | `bfs`                                  | 21/09/23                             |                                                              |      |
 | [21610](https://www.acmicpc.net/problem/21610)               | 21610                                                        | 마법사 상어와 비바라기       | `시물레이션`                           | 21/09/24                             |                                                              |      |
+| [12100](https://www.acmicpc.net/problem/12100)               | 12100                                                        | 2048 (Easy)                  | `시물레이션`                           | 21/09/26                             | fail                                                         |      |
 
 
 
