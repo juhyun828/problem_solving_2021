@@ -178,6 +178,7 @@
 | [21610](https://www.acmicpc.net/problem/21610)               | [21610](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_21610_%EB%A7%88%EB%B2%95%EC%82%AC%EC%83%81%EC%96%B4%EC%99%80%EB%B9%84%EB%B0%94%EB%9D%BC%EA%B8%B0.java) | 마법사 상어와 비바라기       | `시물레이션`                           | 21/09/24                             |                                                              |      |
 | [21611](https://www.acmicpc.net/problem/21611)               | 21611                                                        | 마법사 상어와 블리자드       | `시물레이션`                           | 21/09/27                             |                                                              |      |
 | [12100](https://www.acmicpc.net/problem/12100)               | 12100                                                        | 2048 (Easy)                  | `시물레이션`                           | 21/09/26<br />21/09/29               |                                                              |      |
+| [21608](https://www.acmicpc.net/problem/21608)               | 21608                                                        | 상어 초등학교                | `시물레이션`                           | 21/09/30                             |                                                              |      |
 
 
 
