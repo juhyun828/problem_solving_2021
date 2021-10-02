@@ -179,7 +179,7 @@
 | [21611](https://www.acmicpc.net/problem/21611)               | 21611                                                        | 마법사 상어와 블리자드       | `시물레이션`                           | 21/09/27                             |                                                              |      |
 | [12100](https://www.acmicpc.net/problem/12100)               | 12100                                                        | 2048 (Easy)                  | `시물레이션`                           | 21/09/26<br />21/09/29               |                                                              |      |
 | [21608](https://www.acmicpc.net/problem/21608)               | 21608                                                        | 상어 초등학교                | `시물레이션`                           | 21/09/30                             |                                                              |      |
-| [21609](https://www.acmicpc.net/problem/21609)               | 21609                                                        | 상어 중학교                  | `시물레이션`                           | 21/09/31                             |                                                              |      |
+| [21609](https://www.acmicpc.net/problem/21609)               | 21609                                                        | 상어 중학교                  | `시물레이션`                           | 21/10/01                             |                                                              |      |
 
 
 
@@ -324,6 +324,8 @@
 | [LV3_풍선터뜨리기](https://programmers.co.kr/learn/courses/30/lessons/68646) | [LV3_풍선터뜨리기](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV3_%ED%92%8D%EC%84%A0%ED%84%B0%EB%9C%A8%EB%A6%AC%EA%B8%B0.java) | `구현`                         | 21/09/08                             |                                                              |      |
 | [LV2_빛의경로사이클](https://programmers.co.kr/learn/courses/30/lessons/86052?language=java) | [LV2_빛의경로사이클](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV2_%EB%B9%9B%EC%9D%98%EA%B2%BD%EB%A1%9C%EC%82%AC%EC%9D%B4%ED%81%B4.java) | `시뮬레이션` `배열`            | 21/09/15                             | [어떤 경우 순환인지..](https://jhk0307.tistory.com/386)      | ☑    |
 | [LV1_없는숫자더하기](https://programmers.co.kr/learn/courses/30/lessons/86051) | [LV1_없는숫자더하기](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV1_%EC%97%86%EB%8A%94%EC%88%AB%EC%9E%90%EB%8D%94%ED%95%98%EA%B8%B0.java) | `구현`                         | 21/09/16                             |                                                              |      |
+| [LV1_최소직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491) | Solution_LV1_최소직사각형                                    | 구현                           | 21/10/01                             |                                                              |      |
+| [LV2_입실퇴실](https://programmers.co.kr/learn/courses/30/lessons/86048) | LV2_입실퇴실                                                 | 구현                           | 21/10/01                             |                                                              | ☑    |
 
 </details>
 
