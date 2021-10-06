@@ -327,6 +327,7 @@
 | [LV1_없는숫자더하기](https://programmers.co.kr/learn/courses/30/lessons/86051) | [LV1_없는숫자더하기](https://github.com/jhk828/Algorithm/blob/master/Programmers/Solution_LV1_%EC%97%86%EB%8A%94%EC%88%AB%EC%9E%90%EB%8D%94%ED%95%98%EA%B8%B0.java) | `구현`                         | 21/09/16                             |                                                              |      |
 | [LV1_최소직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491) | Solution_LV1_최소직사각형                                    | 구현                           | 21/10/01                             |                                                              |      |
 | [LV2_입실퇴실](https://programmers.co.kr/learn/courses/30/lessons/86048) | LV2_입실퇴실                                                 | 구현                           | 21/10/01                             |                                                              | ☑    |
+| [LV1_6주차_복서정렬하기](https://programmers.co.kr/learn/courses/30/lessons/85002) | LV1_6주차_복서정렬하기                                       | `정렬`                         | 21/10/06                             |                                                              |      |
 
 </details>
 
