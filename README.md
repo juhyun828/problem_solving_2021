@@ -328,6 +328,7 @@
 | [LV1_최소직사각형](https://programmers.co.kr/learn/courses/30/lessons/86491) | Solution_LV1_최소직사각형                                    | 구현                           | 21/10/01                             |                                                              |      |
 | [LV2_입실퇴실](https://programmers.co.kr/learn/courses/30/lessons/86048) | LV2_입실퇴실                                                 | 구현                           | 21/10/01                             |                                                              | ☑    |
 | [LV1_6주차_복서정렬하기](https://programmers.co.kr/learn/courses/30/lessons/85002) | LV1_6주차_복서정렬하기                                       | `정렬`                         | 21/10/06                             |                                                              |      |
+| [LV2_9주차_전력망을둘로나누기](https://programmers.co.kr/learn/courses/30/lessons/86971) | LV2_9주차_전력망을둘로나누기                                 | `그래프`, `트리`               | 21/10/08                             |                                                              |      |
 
 </details>
 
