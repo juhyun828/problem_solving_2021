@@ -1,7 +1,7 @@
 import java.util.*;
 // 211008
 
-class Solution_9주차_LV2_전력망을둘로나누기 {
+class Solution_LV2_9주차_전력망을둘로나누기 {
     static int answer;
     static boolean[] v;
     public int solution(int n, int[][] wires) {
