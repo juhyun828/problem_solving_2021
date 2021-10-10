@@ -180,7 +180,8 @@
 | [12100](https://www.acmicpc.net/problem/12100)               | 12100                                                        | 2048 (Easy)                  | `시물레이션`                           | 21/09/26<br />21/09/29               |                                                              |      |
 | [21608](https://www.acmicpc.net/problem/21608)               | 21608                                                        | 상어 초등학교                | `시물레이션`                           | 21/09/30                             |                                                              |      |
 | [21609](https://www.acmicpc.net/problem/21609)               | 21609                                                        | 상어 중학교                  | `시물레이션`                           | 21/10/01                             |                                                              |      |
-| [2615](https://www.acmicpc.net/problem/2615)                 | 2615                                                         | 오목                         | `구현` `브루트포스`                    | 21/10/03                             | 시뮬레이션                                                   |      |
+| [2615](https://www.acmicpc.net/problem/2615)                 | 2615                                                         | 오목                         | `구현` `브루트포스`                    | 21/10/03                             | fail                                                         | ☑    |
+| [3584](https://www.acmicpc.net/problem/3584)                 | 3584                                                         | 가장 가까운 공통 조상        | `그래프` `트리` `LCA`                  | 21/10/10                             |                                                              |      |
 
 
 
