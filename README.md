@@ -184,6 +184,8 @@
 | [3584](https://www.acmicpc.net/problem/3584)                 | [3584](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_3584_%EA%B0%80%EC%9E%A5%EA%B0%80%EA%B9%8C%EC%9A%B4%EA%B3%B5%ED%86%B5%EC%A1%B0%EC%83%81.java) | 가장 가까운 공통 조상        | `그래프` `트리` `LCA`                  | 21/10/10                             |                                                              |      |
 | [5568](https://www.acmicpc.net/problem/5568)                 | 5568                                                         | 카드 놓기                    | `dfs` `순열`                           | 21/10/11                             |                                                              |      |
 | [4396](https://www.acmicpc.net/problem/4396)                 | 4396                                                         | 지뢰 찾기                    | `구현`                                 | 21/10/11                             |                                                              |      |
+| [1662](https://www.acmicpc.net/problem/1662)                 | 1662                                                         | 압축                         | `스택` `재귀`                          | 21/10/12                             | 메모리초과 fail                                              | ☑    |
+| [2847](https://www.acmicpc.net/problem/2847)                 | 2847                                                         | 게임을 만든 동준이           | `그리디`                               | 21/10/12                             |                                                              |      |
 
 
 
