@@ -186,6 +186,7 @@
 | [4396](https://www.acmicpc.net/problem/4396)                 | 4396                                                         | 지뢰 찾기                    | `구현`                                 | 21/10/11                             |                                                              |      |
 | [1662](https://www.acmicpc.net/problem/1662)                 | 1662                                                         | 압축                         | `스택` `재귀`                          | 21/10/12                             | 메모리초과 fail                                              | ☑    |
 | [2847](https://www.acmicpc.net/problem/2847)                 | 2847                                                         | 게임을 만든 동준이           | `그리디`                               | 21/10/12                             |                                                              |      |
+| [16562](https://www.acmicpc.net/problem/16562)               | 16562                                                        | 친구비                       | `union-find`                           | 21/10/13                             |                                                              |      |
 
 
 
