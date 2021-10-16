@@ -188,6 +188,7 @@
 | [2847](https://www.acmicpc.net/problem/2847)                 | [2847](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_2847_%EA%B2%8C%EC%9E%84%EC%9D%84%EB%A7%8C%EB%93%A0%EB%8F%99%EC%A4%80%EC%9D%B4.java) | 게임을 만든 동준이           | `그리디`                               | 21/10/12                             |                                                              |      |
 | [16562](https://www.acmicpc.net/problem/16562)               | [16562](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_16562_%EC%B9%9C%EA%B5%AC%EB%B9%84.java) | 친구비                       | `union-find`                           | 21/10/13                             |                                                              |      |
 | [18116](https://www.acmicpc.net/problem/18116)               | 18116                                                        | 로봇 조립                    | `union-find`                           | 21/10/14                             |                                                              |      |
+| [16987](https://www.acmicpc.net/problem/16987)               | 16987                                                        | 계란으로 바위치기            | `백트래킹` `브루트포스`                | 21/10/16                             |                                                              |      |
 
 
 
