@@ -189,6 +189,7 @@
 | [16562](https://www.acmicpc.net/problem/16562)               | [16562](https://github.com/jhk828/Algorithm/blob/master/BJ/Main_BJ_16562_%EC%B9%9C%EA%B5%AC%EB%B9%84.java) | 친구비                       | `union-find`                           | 21/10/13                             |                                                              |      |
 | [18116](https://www.acmicpc.net/problem/18116)               | 18116                                                        | 로봇 조립                    | `union-find`                           | 21/10/14                             |                                                              |      |
 | [16987](https://www.acmicpc.net/problem/16987)               | 16987                                                        | 계란으로 바위치기            | `백트래킹` `브루트포스`                | 21/10/16                             |                                                              |      |
+| [10775](https://www.acmicpc.net/problem/10775)               | 10775                                                        | 공항                         | `union-find` `그리디`                  | 21/10/18                             |                                                              |      |
 
 
 
