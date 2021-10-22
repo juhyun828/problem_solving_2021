@@ -192,6 +192,7 @@
 | [10775](https://www.acmicpc.net/problem/10775)               | 10775                                                        | 공항                         | `union-find` `그리디`                  | 21/10/18                             |                                                              | ☑    |
 | [14620](https://www.acmicpc.net/problem/14620)               | 14620                                                        | 꽃길                         | `백트래킹` `브루트포스`                | 21/10/22                             |                                                              |      |
 | [10971](https://www.acmicpc.net/problem/10971)               | 10971                                                        | 외판원 순회 2                | `백트래킹` `브루트포스`                | 21/10/22                             |                                                              |      |
+| [14621](https://www.acmicpc.net/problem/14621)               | 14621                                                        | 나만 안되는 연애             | `MST`                                  | 21/10/22                             |                                                              |      |
 
 
 
